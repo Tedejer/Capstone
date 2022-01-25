@@ -8,5 +8,5 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ## Web App Mock Up
 
-![login concept](resources\login_mock.PNG)
-![info concept](resources\info_mock.PNG)
+![login concept](resources/login_mock.PNG)
+![info concept](resources/info_mock.PNG)
