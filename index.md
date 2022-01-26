@@ -1,37 +1,11 @@
-## Welcome to GitHub Pages
+# Charity Islands
 
-You can use the [editor on GitHub](https://github.com/Tedejer/Capstone/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+### This area will be used to publish development logs and notes
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+## Project Description
 
-### Markdown
+A website that people in the local area of Ventura County can use to become a more generous, kind, philanthropic person all around. Aimed at making a person an overall better person and helping them find charities or community service events in the area of Ventura County. Colleges aim to educate people but don’t really teach people how to be better people to society, so one problem we discussed was students who do want to help and donate to charities or participate in beach clean ups and other communal events don’t really know where to go to find charities or events in the local area of Ventura County.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+## Front End
 
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/Tedejer/Capstone/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+## Back End
