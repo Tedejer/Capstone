@@ -8,5 +8,7 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ## Web App Mock Up
 
-![login concept](resources/login_mock.PNG)
-![info concept](resources/info_mock.PNG)
+![login concept](misc/login_mock.PNG)
+
+The full mock up project can be seen on
+[figma](https://www.figma.com/file/iLpe8hZBP3eq9B4eLw0Kgu/Capstone%3A-Chairty-Islands?node-id=0%3A1)
