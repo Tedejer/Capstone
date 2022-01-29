@@ -10,6 +10,10 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ![Progress](https://progress-bar.dev/9/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
+Further information can be found here:
+
+[Chairty Islands](https://tedejer.github.io/Capstone/)
+
 ## Web App Mock Up
 
 ![login concept](misc/login_mock.PNG)
