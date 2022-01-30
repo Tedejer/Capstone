@@ -1,8 +1,6 @@
-## Front End Notes
+# Front End
 
-A place for front end notes
-
-## Front-End
+[Home](index.md)
 
 ### Current Front-End Concerns
 
