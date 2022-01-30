@@ -4,10 +4,7 @@
 
 ## Contents
 
-- [Status](#Status)
-- [Front End](#Front-End)
-- [Back End](#Back-End)
-- [Misc](#Misc)
+- [Front End](FrontEnd.md)
 
 ## Description
 
@@ -35,24 +32,6 @@ A website that people in the local area of Ventura County can use to become a mo
 
 - Establishing a proper tech stack
 - Research necessary tools
-
-## Front-End
-
-### Current Front-End Concerns
-
-- General Layout of the page
-- Button placement
-- Color Scheme
-- Accessability
-- Page distribution
-
-Our current front end concept:
-
-Created using figma
-
-![login](./misc/login_mock.PNG)
-![chairty](./misc/chairty_mock.PNG)
-![profile](./misc/profile.PNG)
 
 ## Back End
 
