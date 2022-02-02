@@ -24,7 +24,7 @@ Created using figma
 
 ## Current State
 
-![login](./misc/login.PNG)
+![login](./misc/login.png)
 
 ![info](./misc/info.PNG)
 
