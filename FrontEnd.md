@@ -25,11 +25,10 @@ Created using figma
 ## Current State
 
 ![login](./misc/login.PNG)
-![info](./misc/info.png)
 
+![info](./misc/info.PNG)
 
 ### TODO LIST
 
 - Finish Login Page
-    - Add Register Button/Forget Password
-    
+  - Add Register Button/Forget Password
