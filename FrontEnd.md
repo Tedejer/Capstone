@@ -26,3 +26,10 @@ Created using figma
 
 ![login](./misc/login.PNG)
 ![info](./misc/info.png)
+
+
+### TODO LIST
+
+- Finish Login Page
+    - Add Register Button/Forget Password
+    
