@@ -20,11 +20,11 @@ A website that people in the local area of Ventura County can use to become a mo
 ![Progress](https://progress-bar.dev/10/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
 - Feuburary
-  - Front End Version 1
-  - Front End Version 2
+  - Front End Version 1 February 1st - February 14th
+  - Front End Version 2 February 15th - February 28th
 - March
-  - Back End Version 1
-  - Back End Version 2
+  - Back End Version 1 March 1st - March 14th
+  - Back End Version 2 March 15th - March 31st
 - April
   - Database
   - Features
