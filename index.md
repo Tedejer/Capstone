@@ -26,10 +26,10 @@ A website that people in the local area of Ventura County can use to become a mo
   - Back End Version 1 March 1st - March 14th
   - Back End Version 2 March 15th - March 31st
 - April
-  - Database
-  - Features
+  - Database April 1st - April 14th
+  - Features April 15th -April 30th
 - May
-  - Production
+  - Production May 1st - End of the semester
 
 ### General Project Concerns
 
