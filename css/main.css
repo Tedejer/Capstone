@@ -10,4 +10,17 @@ body {
   background-color: #294c60;
   color: white;
 }
+
+p1 {
+  color: #294c60;
+  font-size: 2rem;
+  font-weight: 500;
+  line-height: 5rem;
+  margin-bottom: 5rem;
+  padding: 50px;
+}
+
+.top-align {
+  vertical-align: top;
+}
 /*# sourceMappingURL=main.css.map */

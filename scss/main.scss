@@ -12,9 +12,14 @@ body {
 }
 
 p1 {
-  color: #000000;
+  color: #294c60;
   font-size: 2rem;
-  font-weight: 1000;
+  font-weight: 500;
   line-height: 5rem;
   margin-bottom: 5rem;
+  padding: 50px;
+}
+
+.top-align {
+  vertical-align: top;
 }
