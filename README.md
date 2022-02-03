@@ -10,6 +10,23 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ![Progress](https://progress-bar.dev/10/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
+### Roadmap
+
+- Feuburary
+  - Front End Version 1 February 1st - February 14th
+  - Front End Version 2 February 15th - February 19th
+  - Back End Version 1 February 20th - February 28th
+- March
+  - Back End Version 2 March 1st - March 14th
+  - Back End Version 3 March 15th - March 22cnd
+  - API version 1 March 23rd - March 31st
+- April
+  - API version 2 April 1st - April 13th
+  - Database April 14th - April 27th
+  - Features April 28th - April 30th
+- May
+  - Production May 1st - End of the semester
+
 Further information can be found here:
 
 [Chairty Islands](https://tedejer.github.io/Capstone/)
