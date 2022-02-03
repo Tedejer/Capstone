@@ -10,6 +10,4 @@
 
 ## Human Centerd Design
 
-### Roadmap
-
-[Roadmap-Link](https://www.designkit.org/methods/roadmap-for-success)
+Human-centered design is a practical, repeatable approach to arriving at innovative solutions.
