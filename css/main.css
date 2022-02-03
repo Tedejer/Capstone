@@ -2,6 +2,14 @@ body {
   background: #d7c9aa;
 }
 
+.body-custom {
+  background: #d7c9aa;
+  background-image: url(" /misc/charity_island.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
 .navbar-custom {
   background-color: #294c60;
 }
@@ -37,7 +45,7 @@ body {
           transform: translate(-50%, -70%);
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  padding: 70px 150px;
+  padding: 90px 150px;
 }
 
 h1 {
@@ -59,7 +67,8 @@ h1 {
   margin-bottom: 30px;
 }
 
-.loginBox input[type="text"], input[type="password"] {
+.loginBox input[type="text"],
+input[type="password"] {
   border: none;
   border-bottom: 1px solid #fff;
   background: transparent;
