@@ -9,58 +9,28 @@
 </head>
 
 <body> 
-  <div class="container p-2 h-50">
-
-    <div class="row d-flex justify-content-center align-items-center h-100">
-      <!--header-->
-      <div class="header">
-        <h1>Charity Islands</h1>
-      </div> 
-
-      <div class="col-12 col-md-8 col-lg-6 col-xl-5">
-          <!--inside the login-->
-          <div class="card-body p-6 text-left login">
-
-            <!--Login-->
-            <h3 class="mb-5"> Login </h3>
-
-            <!--Username-->
-            <label class="form-label" for="typeEmailX-2">Username</label>
-            
-            <div class="form-outline mb-4">
-              <input type="email" id="typeEmailX-2" class="form-control form-control-lg" />
-            </div>
-
-            <!--Password-->
-            <label class="form-label" for="typePasswordX-2">Password</label>
-            <div class="form-outline mb-4">
-              <input type="password" id="typePasswordX-2" class="form-control form-control-lg" />
-            </div>
-
-            <!--Forgot Password-->
-            <div class="form-check d-flex justify-content-end">
-              <a href='#'> Forgot Password?</a>
-            </div>
-
-            <!-- Checkbox -->
-            <div class="form-check d-flex justify-content-start mb-4">
-              <input
-                class="form-check-input"
-                type="checkbox"
-                value=" "
-                id="form1Example3"
-              />
-              <!--Remember me-->
-              <label class="form-check-label" for="form1Example3"> Remember Me </label>
-             </div>
-
-            <!--sign in button-->  
-            <button class="btn btn-outline-light btn-lg btn-block" type="submit">Sign In</button>
-            <div class="d-flex justify-content-center">
-            </div>
-          </div>
+    <!--Header-->
+    <div class='header'>
+      <h3>Charity Islands</h3>
     </div>
-  </div>
+
+    <!--Login-->
+    <div class="loginBox">
+    <h1>Login</h1>
+      <form>
+        <p>Username</p>
+        <input type="text" name="Username" placeholder="Enter Username">
+        <p>Password</p>
+        <input type="password" name="Password" placeholder="Enter Password">
+
+        <input type="checkbox" class="form-check-input" id="dropdownCheck">
+        <label class="form-check-label" for="dropdownCheck">Remember me </label>
+
+        <input type="submit" name="Sign In" value="Sign In">
+      </form>
+    </div>
+    
+ 
   <div class=" mt-auto container fixed-bottom">
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom border-dark pb-3 mb-3">
