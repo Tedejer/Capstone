@@ -1,6 +1,10 @@
 body {
   background: #d7c9aa;
-  background-image: url(' /misc/charity_island.jpg');
+}
+
+.body-custom {
+  background: #d7c9aa;
+  background-image: url(" /misc/charity_island.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -16,77 +20,69 @@ body {
   color: white;
 }
 
-.header{ 
-  background: rgba(0,0,0,0.3);
-  height: 55px;
+.header {
+  background: rgba(0, 0, 0, 0.5);
+  height: 57px;
   text-align: left;
-  padding-left: 2%;
+  padding-left: 0.5%;
 }
 
-.header h3{
-  font-size: 40px;
+.header h3 {
+  padding-top: 15px;
+  font-size: 20px;
+  color: #fff;
 }
 
-.loginBox{
-  width:500px;
+.loginBox {
+  width: 500px;
   height: 600px;
-  background: rgba(0,0,0,0.3);
+  background: rgba(0, 0, 0, 0.7);
   color: #fff;
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%,-70%) ;
+  transform: translate(-50%, -50%);
   box-sizing: border-box;
-  padding: 70px 150px;
-
+  padding: 90px 150px;
 }
 
-h1{
-  margin:0;
-  padding:0 0 100px;
+h1 {
+  margin: 0;
+  padding: 0 0 100px;
   text-align: center;
   font-size: 22px;
 }
 
-.loginBox p{
+.loginBox p {
   margin: 0;
   padding: 0;
   font-weight: bold;
   text-align: left;
-
 }
-.loginBox input{
+.loginBox input {
   width: 110%;
   margin-bottom: 30px;
-
 }
-.loginBox input[type="text"], input[type="password"]{
+.loginBox input[type="text"],
+input[type="password"] {
   border: none;
-  border-bottom:1px solid #fff;
-  background:transparent;
+  border-bottom: 1px solid #fff;
+  background: transparent;
   outline: none;
   height: 40px;
   color: #fff;
-  font-size:13px;
+  font-size: 13px;
 }
-.loginBox input[type="submit"]{
-  border:None;
-  outline:None;
-  height:40px;
-  background: blue;
+.loginBox input[type="submit"] {
+  border: None;
+  outline: None;
+  height: 40px;
+  background: #294c60;
   color: #fff;
   border-radius: 10px;
 }
 
-.loginBox input[type="checkbox"]{
+.loginBox input[type="checkbox"] {
   width: 15px;
   height: 15px;
 }
-
-
-
-
-
-
-
-
