@@ -41,8 +41,10 @@ body {
   top: 50%;
   left: 50%;
   position: absolute;
-  transform: translate(-50%, -50%);
-  box-sizing: border-box;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
   padding: 90px 150px;
 }
 
@@ -59,10 +61,12 @@ h1 {
   font-weight: bold;
   text-align: left;
 }
+
 .loginBox input {
   width: 110%;
   margin-bottom: 30px;
 }
+
 .loginBox input[type="text"],
 input[type="password"] {
   border: none;
@@ -73,6 +77,7 @@ input[type="password"] {
   color: #fff;
   font-size: 13px;
 }
+
 .loginBox input[type="submit"] {
   border: None;
   outline: None;
@@ -86,3 +91,4 @@ input[type="password"] {
   width: 15px;
   height: 15px;
 }
+/*# sourceMappingURL=main.css.map */
