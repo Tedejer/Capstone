@@ -26,7 +26,9 @@ Created using figma
 
 As of Feb 5, 2022
 
-<img src="./misc/info_layout.PNG" alt="drawing" width="1000"/>
+![layout](./misc/info_layout.PNG)
+
+<img src="./misc/info_layout.PNG" width="400" height="100" />
 
 ## TODO:
 
