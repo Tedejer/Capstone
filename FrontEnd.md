@@ -24,9 +24,7 @@ Created using figma
 
 ## Current State
 
-![login](./misc/login.png)
-
-![info](./misc/info.PNG)
+<img src="./misc/info_layout.PNG" alt="drawing" width="1000"/>
 
 ### TODO LIST
 
