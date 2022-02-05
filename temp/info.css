@@ -1,5 +1,5 @@
 .my_col {
-  border: 1px solid black;
+  border: 1px solid blue;
 }
 
 .my_row {
@@ -7,5 +7,5 @@
 }
 
 .my_cont {
-  border: 1px solid green;
+  border: 2px dashed green;
 }
