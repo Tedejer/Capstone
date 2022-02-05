@@ -24,9 +24,17 @@ Created using figma
 
 ## Current State
 
+As of Feb 5, 2022
+
 <img src="./misc/info_layout.PNG" alt="drawing" width="1000"/>
 
-### TODO LIST
+## TODO:
 
-- Finish Login Page
-  - Add Register Button/Forget Password
+- Login
+  - Buttons
+- Dashboard
+  - Layout
+- Info
+  - Layout
+- About
+  - Layout
