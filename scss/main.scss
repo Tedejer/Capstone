@@ -107,10 +107,27 @@ input[type="password"] {
 p2 {
   font-size: 4rem;
   font-weight: 350;
-  color: #294c60; 
+  color: #294c60;
 }
 
 .ci-center {
   display: flex;
   justify-content: center;
+}
+
+.profilepic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border: 1px black;
+}
+
+.profile_settings_positioning {
+  // height: 200px;
+  // display: flex;
+  // align-items: center;
+  // justify-content: center;
+  width: 500px;
+  margin: 0 auto;
 }

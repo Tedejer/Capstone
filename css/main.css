@@ -124,4 +124,17 @@ p2 {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.profilepic {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  border: 1px black;
+}
+
+.profile_settings_positioning {
+  width: 500px;
+  margin: 0 auto;
+}
 /*# sourceMappingURL=main.css.map */
