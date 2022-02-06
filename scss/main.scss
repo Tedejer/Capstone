@@ -107,10 +107,14 @@ input[type="password"] {
 p2 {
   font-size: 4rem;
   font-weight: 350;
-  color: #294c60; 
+  color: #294c60;
 }
 
 .ci-center {
   display: flex;
   justify-content: center;
+}
+
+.hidden {
+  display: none;
 }

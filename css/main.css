@@ -124,4 +124,8 @@ p2 {
       -ms-flex-pack: center;
           justify-content: center;
 }
+
+.hidden {
+  display: none;
+}
 /*# sourceMappingURL=main.css.map */
