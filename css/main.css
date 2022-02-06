@@ -92,6 +92,39 @@ input[type="password"] {
   height: 15px;
 }
 
+.About-Page {
+  color: #294c60;
+  padding: 30px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  margin: auto;
+  font-size: 2rem;
+}
+
+.About-body {
+  margin: auto;
+  width: 50%;
+  padding: auto;
+}
+
+p2 {
+  font-size: 4rem;
+  font-weight: 350;
+  color: #294c60;
+}
+
+.ci-center {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
 .profilepic {
   border-radius: 50%;
   width: 150px;

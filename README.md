@@ -33,7 +33,5 @@ Further information can be found here:
 
 ## Web App Mock Up
 
-![login concept](misc/login_mock.PNG)
-
 The full mock up project can be seen on
 [figma](https://www.figma.com/file/iLpe8hZBP3eq9B4eLw0Kgu/Capstone%3A-Chairty-Islands?node-id=0%3A1)
