@@ -20,6 +20,7 @@ A website that people in the local area of Ventura County can use to become a mo
 - Front End (Current)
 - Back End
 - API
+- DevOps
 - Database
 - Features
 
