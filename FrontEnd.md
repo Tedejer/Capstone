@@ -9,20 +9,24 @@
 ## TODO:
 
 - Login
+  - Layout
   - Buttons
+  - Accessability
 - Dashboard
   - Layout
+  - Buttons
+  - Accessability
 - Info
   - Layout
+  - Buttons
+  - Accessability
 - About
   - Layout
+  - Buttons
+  - Accessability
 
 ### Current Front-End Concerns
 
-- General Layout of the page
-- Button placement
-- Color Scheme
-- Accessability
 - Page distribution
 
 ## Concept
