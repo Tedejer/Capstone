@@ -1,4 +1,4 @@
-![Brand_Name](./misc/brand_name.png)
+![Brand_Name](./misc/name_flat.png)
 
 ## Contents
 
@@ -17,11 +17,11 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ### Todo
 
-- [ ] Front End (Current)
-- [ ] Back End
-- [ ] API
-- [ ] Database
-- [ ] Features
+- Front End (Current)
+- Back End
+- API
+- Database
+- Features
 
 ### Roadmap
 

@@ -4,7 +4,7 @@
 
 ### Status
 
-![Progress](https://progress-bar.dev/15/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
+![Progress](https://progress-bar.dev/25/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
 ## TODO:
 
