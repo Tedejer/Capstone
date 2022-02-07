@@ -6,6 +6,17 @@
 
 ![Progress](https://progress-bar.dev/15/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
+## TODO:
+
+- Login
+  - Buttons
+- Dashboard
+  - Layout
+- Info
+  - Layout
+- About
+  - Layout
+
 ### Current Front-End Concerns
 
 - General Layout of the page
@@ -28,15 +39,10 @@ As of Feb 5, 2022
 
 ![layout](./misc/Info_layout.PNG)
 
-<img src="./misc/info_layout.PNG" width="400" height="100" />
+## Concept Art
 
-## TODO:
-
-- Login
-  - Buttons
-- Dashboard
-  - Layout
-- Info
-  - Layout
-- About
-  - Layout
+![art1](./misc/artconcept1.jpg)
+![art2](./misc/artconcept2.jpg)
+![art3](./misc/brand_concept1.png)
+![art4](./misc/brand_concept2.png)
+![art5](./misc/brand_concept3.png)
