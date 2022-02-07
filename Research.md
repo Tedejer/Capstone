@@ -19,3 +19,7 @@ Human-centered design is a practical, repeatable approach to arriving at innovat
 ## Icons
 
 [Icons](https://icons8.com/)
+
+## Dashboard Design
+
+[Dashboard](https://www.logianalytics.com/dashboarddesignguide/the-future-of-dashboard-design/)
