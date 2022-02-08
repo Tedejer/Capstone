@@ -17,12 +17,24 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ### Todo
 
+- Establish tech stack
 - Front End (Current)
 - Back End
 - API
 - DevOps
 - Database
 - Features
+
+### Tech Stack
+
+![TypeScript](https://img.icons8.com/color/48/000000/typescript.png)
+![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png)
+![Bootstrap](https://img.icons8.com/color/48/000000/sass-avatar.png)
+![React](https://img.icons8.com/office/40/000000/react.png)
+
+![NodeJs](https://img.icons8.com/color/48/000000/nodejs.png)
+
+![MongoDb](https://img.icons8.com/color/48/000000/mongodb.png)
 
 ### Roadmap
 
