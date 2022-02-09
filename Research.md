@@ -6,8 +6,6 @@
 
 [Branching-Video](https://www.youtube.com/watch?v=Lj_jAFwofLs)
 
-![Branch-Model](./misc/branching-model.PNG)
-
 ## Human Centerd Design
 
 Human-centered design is a practical, repeatable approach to arriving at innovative solutions.
@@ -50,3 +48,29 @@ Back End
 Database
 
 - Mongodb
+
+## Typescript
+
+![TypeScript](https://img.icons8.com/color/48/000000/typescript.png)
+
+### What is Typescript?
+
+Strongly typed programming language that builds on top of Javascript giving better tooling at any scale.
+
+### Why use it?
+
+- It is easier to refactor code without breaking it significantly
+- Scalability
+- Readability
+- Preventive measures to avoid bugs and errors
+- It is widly used in the industry today
+
+### Preq to understanding Typescript is understanding Javascript
+
+[CrashCourse](https://www.youtube.com/watch?v=gp5H0Vw39yw)
+
+## Sass
+
+## React
+
+[ReactTut](https://react-tutorial.app/)
