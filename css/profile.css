@@ -7,6 +7,7 @@
   overflow: hidden;
   border: 10px black;
   -webkit-transform: translateZ(0);
+  position: absolute;
 }
 
 .profile_settings_positioning {
@@ -24,16 +25,15 @@
 }
 
 .profile_pic_position {
-  margin-left: 101px;
-  margin-bottom: 10px;
+  width: 90px;
+  height: 90px;
+  margin: auto;
+  border-radius: 50%;
   position: relative;
-  height: 86px;
-  width: 86px;
-  display: block;
 }
 
 .profile_pic_changer {
-  background: #fff;
+  background: white;
   bottom: 0;
   position: absolute;
   right: 0;
@@ -52,14 +52,17 @@
   width: 23px;
 }
 
-.small_changer {
-  color: black;
-  fill: currentColor;
-}
-
 .downarrow {
   position: relative;
   left: -5px;
   top: -2px;
+}
+
+h3 {
+  color: #294c60;
+}
+
+.labels {
+  color: #294c60;
 }
 /*# sourceMappingURL=profile.css.map */

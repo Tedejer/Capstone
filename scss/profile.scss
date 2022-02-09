@@ -1,4 +1,4 @@
-.profilepic {
+.profilepic { // white circle positioning
     margin-right: 6px;
     vertical-align: top;
     border-radius: 50%;
@@ -7,6 +7,7 @@
     overflow: hidden;
     border: 10px rgb(0, 0, 0);
     -webkit-transform: translateZ(0);
+    position: absolute;
 }
   
 .profile_settings_positioning {
@@ -24,17 +25,22 @@
     margin: 50px;
 }
   
-.profile_pic_position {
-    margin-left: 101px;
-    margin-bottom: 10px;
+.profile_pic_position { // actual profile pic
+    // margin-left: 500px;
+    // margin-bottom: 50px;
+    // position: relative;
+    // height: 90px;
+    // width: 90px;
+    // display: block;
+    width: 90px;
+    height: 90px;
+    margin: auto;
+    border-radius: 50%;
     position: relative;
-    height: 86px;
-    width: 86px;
-    display: block;
 }
   
-.profile_pic_changer {
-    background: #fff;
+.profile_pic_changer { // white circle properties
+    background: rgb(255, 255, 255);
     bottom: 0;
     position: absolute;
     right: 0;
@@ -43,7 +49,7 @@
     width: 30px;
 }
   
-.changer_button {
+.changer_button { // positioning of down arrow up and down
     bottom: 0;
     margin: 0px 2.5px 3px;
     outline: 0;
@@ -52,14 +58,17 @@
     height: 26px;
     width: 23px;
 }
-  
-.small_changer {
-    color: black;
-    fill: currentColor;
-}
-  
-.downarrow {
+    
+.downarrow { // positioning of down arrow left and right
     position: relative; 
     left: -5px; 
     top: -2px;
+}
+
+h3 {
+    color: #294c60;
+}
+
+.labels {
+    color: #294c60;
 }
