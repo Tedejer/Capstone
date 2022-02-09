@@ -61,6 +61,14 @@ h1 {
   padding: 10px 50px;
 }
 
+.loginpng {
+  width: 380px;
+  height: 145px;
+  position: relative;
+  left: -17px;
+  top: -5px;
+}
+
 .loginPad {
   padding: 50px 100px;
 }
