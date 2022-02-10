@@ -50,6 +50,7 @@
   right: 0;
   height: 26px;
   width: 23px;
+  cursor: pointer;
 }
 
 .downarrow {

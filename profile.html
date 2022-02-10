@@ -87,11 +87,11 @@
     <div class="profile_pic_position">
       <img class="profilepic" src="/misc/charity_islands_test.png" title="Profile" alt-aria-hidden="true">
       <div class="profile_pic_changer profilepic">
-        <a class="changer_button" aria-label="Change Profile Picture"
-          href="https://myaccount.google.com/?utm_source=OGB&tab=rk&authuser=0" target="_top">
+        <label class="changer_button" for="file">
           <!-- <a href="https://icons8.com/icon/zPuDtrOywBWq/down-arrow">Down Arrow icon by Icons8</a> -->
-          <img class="downarrow" src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-down-arrow-arrows-dreamstale-lineal-dreamstale.png">
-        </a>
+          <input type="file" name="changer_button" id="file" style="display: none;" onchange="loadFile(event)">
+          <img class="downarrow" src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-down-arrow-arrows-dreamstale-lineal-dreamstale.png" id="output"/>
+        </label>
       </div>
     </div>
 
