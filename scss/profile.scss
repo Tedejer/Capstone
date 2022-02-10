@@ -1,15 +1,9 @@
-.profilepic { // white circle positioning
-    margin-right: 6px;
-    vertical-align: top;
-    border-radius: 50%;
-    width: 80px;
-    height: 80px;
-    overflow: hidden;
-    border: 10px rgb(0, 0, 0);
-    -webkit-transform: translateZ(0);
-    position: absolute;
+.profile_body {
+    grid-column: 1/3;
+    grid-row: 1;
+    margin: 50px;
 }
-  
+
 .profile_settings_positioning {
     // height: 200px;
     // display: flex;
@@ -19,53 +13,6 @@
     margin: 0 auto;
 }
 
-.profile_body {
-    grid-column: 1/3;
-    grid-row: 1;
-    margin: 50px;
-}
-  
-.profile_pic_position { // actual profile pic
-    // margin-left: 500px;
-    // margin-bottom: 50px;
-    // position: relative;
-    // height: 90px;
-    // width: 90px;
-    // display: block;
-    width: 90px;
-    height: 90px;
-    margin: auto;
-    border-radius: 50%;
-    position: relative;
-}
-  
-.profile_pic_changer { // white circle properties
-    background: rgb(255, 255, 255);
-    bottom: 0;
-    position: absolute;
-    right: 0;
-    overflow: visible;
-    height: 30px;
-    width: 30px;
-}
-  
-.changer_button { // positioning of down arrow up and down
-    bottom: 0;
-    margin: 0px 2.5px 3px;
-    outline: 0;
-    position: absolute;
-    right: 0;
-    height: 26px;
-    width: 23px;
-    cursor: pointer;
-}
-    
-.downarrow { // positioning of down arrow left and right
-    position: relative; 
-    left: -5px; 
-    top: -2px;
-}
-
 h3 {
     color: #294c60;
 }
@@ -73,3 +20,124 @@ h3 {
 .labels {
     color: #294c60;
 }
+
+@mixin object-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  $circleSize: 165px;
+  $radius: 100px;
+  $shadow: 0 0 10px 0 rgba(255,255,255,.35);
+  $fontColor: rgb(250,250,250);
+  
+  .change_pic {
+    color: transparent;
+    transition: all .3s ease;
+    @include object-center;
+    position: relative;
+    transition: all .3s ease;
+    
+    input {
+      display: none;
+    }
+    
+    img {
+      position: absolute;
+      object-fit: cover;
+      width: $circleSize;
+      height: $circleSize;
+      box-shadow: $shadow;
+      border-radius: $radius;
+      z-index: 0;
+    }
+    
+    .-label {
+      cursor: pointer;
+      height: $circleSize;
+      width: $circleSize;
+    }
+    
+    &:hover {
+      .-label {
+        @include object-center;
+        background-color: rgba(0,0,0,.8);
+        z-index: 10000;
+        color: $fontColor;
+        transition: background-color .2s ease-in-out;
+        border-radius: $radius;
+        margin-bottom: 0;
+      }
+    }
+    
+    span {
+      display: inline-flex;
+      padding: .2em;
+      height: 2em;
+    }
+  }
+
+// Commented for Documentation Purposes
+
+// .profilepic { // white circle positioning
+//     margin-right: 6px;
+//     vertical-align: top;
+//     border-radius: 50%;
+//     width: 80px;
+//     height: 80px;
+//     overflow: hidden;
+//     border: 10px rgb(0, 0, 0);
+//     -webkit-transform: translateZ(0);
+//     position: absolute;
+// }
+  
+// .profile_settings_positioning {
+//     // height: 200px;
+//     // display: flex;
+//     // align-items: center;
+//     // justify-content: center;
+//     width: 500px;
+//     margin: 0 auto;
+// }
+
+// .profile_pic_position { // actual profile pic
+//     // margin-left: 500px;
+//     // margin-bottom: 50px;
+//     // position: relative;
+//     // height: 90px;
+//     // width: 90px;
+//     // display: block;
+//     width: 90px;
+//     height: 90px;
+//     margin: auto;
+//     border-radius: 50%;
+//     position: relative;
+// }
+  
+// .profile_pic_changer { // white circle properties
+//     background: rgb(255, 255, 255);
+//     bottom: 0;
+//     position: absolute;
+//     right: 0;
+//     overflow: visible;
+//     height: 30px;
+//     width: 30px;
+// }
+  
+// .changer_button { // positioning of down arrow up and down
+//     bottom: 0;
+//     margin: 0px 2.5px 3px;
+//     outline: 0;
+//     position: absolute;
+//     right: 0;
+//     height: 26px;
+//     width: 23px;
+//     cursor: pointer;
+// }
+    
+// .downarrow { // positioning of down arrow left and right
+//     position: relative; 
+//     left: -5px; 
+//     top: -2px;
+// }

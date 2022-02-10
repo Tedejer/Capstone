@@ -55,66 +55,35 @@
         </div>
     </div> -->
 
-  <!-- Start of V1 Profile Page -->
-  <!-- <div class="container rounded bg-clear mt-5 mb-5">
-    <div class="row">
-        <div class="col-md-3 border-right">
-          <div class="d-flex flex-column align-items-center text-center p-3 py-5"><img class="profilepic" src="misc/charity_islands_test.png"><span class="font-weight-bold">Insert Name</span><span class="text-black-50">Insert Email</span><span> </span></div>
-        </div>
+<!-- Start of V3 Profile Page -->
+<div class="profile_body"> <!-- Profile Pic and Settings -->
+  <div class="change_pic">
+    <label class="-label" for="file">
+      <span>Change Your Pic!</span>
+    </label>
+    <input id="file" type="file" onchange="loadFile(event)"/>
+    <img src="https://i.pinimg.com/474x/65/25/a0/6525a08f1df98a2e3a545fe2ace4be47.jpg" id="output" width="200"/>
+  </div>
 
-        <div class="profile_settings_positioning">
-          <div class="p-3 py-5">
-              <div class="d-flex justify-content-between align-items-center mb-3">
-                  <h3 class="text-right">Profile Settings</h4>
-              </div>
-              <div class="row mt-2">
-                  <div class="col-md-6"><label class="labels">First Name</label><input type="text" class="form-control" placeholder="First name" value=""></div>
-                  <div class="col-md-6"><label class="labels">Last Name</label><input type="text" class="form-control" value="" placeholder="Last Name"></div>
-              </div>
-              <div class="row mt-3">
-                  <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="Enter email address" value=""></div>
-                  <div class="col-md-12"><label class="labels">Username</label><input type="text" class="form-control" placeholder="Username" value=""></div>
-              </div>
-              <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
-          </div>
+  <div class="profile_settings_positioning">
+    <div class="p-3 py-5" data-selected="true" data-label-id="0" style="transition: none 0s ease 0s; cursor: move; position: relative;">
+      <div class="d-flex justify-content-between align-items-center mb-3">
+          <h3 class="text-center" style="position: relative; left: 133px; top: -8px;">Profile Settings</h3>
       </div>
-    </div>
-  </div>  -->
-  <!-- End of V1 Profile Page -->
-
-  <!-- Start of V2 Profile Page -->
-  <div class="profile_body">
-    <div class="profile_pic_position">
-      <img class="profilepic" src="/misc/charity_islands_test.png" title="Profile" alt-aria-hidden="true">
-      <div class="profile_pic_changer profilepic">
-        <label class="changer_button" for="file">
-          <!-- <a href="https://icons8.com/icon/zPuDtrOywBWq/down-arrow">Down Arrow icon by Icons8</a> -->
-          <input type="file" name="changer_button" id="file" style="display: none;" onchange="loadFile(event)">
-          <img class="downarrow" src="https://img.icons8.com/external-dreamstale-lineal-dreamstale/32/000000/external-down-arrow-arrows-dreamstale-lineal-dreamstale.png" id="output"/>
-        </label>
+      <div class="row mt-2">
+          <div class="col-md-6"><label class="labels">First Name</label><input type="text" class="form-control" placeholder="First name" value=""></div>
+          <div class="col-md-6"><label class="labels">Last Name</label><input type="text" class="form-control" value="" placeholder="Last Name"></div>
       </div>
-    </div>
-
-    <div class="profile_settings_positioning">
-      <div class="p-3 py-5" data-selected="true" data-label-id="0" style="transition: none 0s ease 0s; cursor: move; position: relative;">
-        <div class="d-flex justify-content-between align-items-center mb-3">
-            <h3 class="text-center" style="position: relative; left: 133px; top: -8px;">Profile Settings</h3>
-        </div>
-        <div class="row mt-2">
-            <div class="col-md-6"><label class="labels">First Name</label><input type="text" class="form-control" placeholder="First name" value=""></div>
-            <div class="col-md-6"><label class="labels">Last Name</label><input type="text" class="form-control" value="" placeholder="Last Name"></div>
-        </div>
-        <div class="row mt-3">
-            <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="Enter email address" value=""></div>
-            <div class="col-md-12"><label class="labels" style="padding: 13px 4px 1px 2px;">Username</label><input type="text" class="form-control" placeholder="Username" value=""></div>
-        </div>
-        <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
+      <div class="row mt-3">
+          <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="Enter email address" value=""></div>
+          <div class="col-md-12"><label class="labels" style="padding: 13px 4px 1px 2px;">Username</label><input type="text" class="form-control" placeholder="Username" value=""></div>
       </div>
+      <div class="mt-5 text-center"><button class="btn btn-primary profile-button" type="button">Save Profile</button></div>
     </div>
   </div>
 
-  
-  <!-- End of V2 Profile Page -->
+</div>
+<!-- End of V3 Profile Page -->
 
   <div class=" mt-auto container">
     <footer class="py-3 my-4">
@@ -129,10 +98,6 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
+  <script src="./js/profilepicture.js"></script>
 </body>
-
-
-
-
-
 </html>
