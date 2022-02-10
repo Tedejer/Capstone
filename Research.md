@@ -51,8 +51,6 @@ Database
 
 ## Typescript
 
-![TypeScript](https://img.icons8.com/color/48/000000/typescript.png)
-
 ### What is Typescript?
 
 Strongly typed programming language that builds on top of Javascript giving better tooling at any scale.
@@ -74,3 +72,12 @@ Strongly typed programming language that builds on top of Javascript giving bett
 ## React
 
 [ReactTut](https://react-tutorial.app/)
+
+## Git
+
+<!-- Git icon by Icons8 -->
+<a href="https://icons8.com/icon/20906/git">
+<img src="https://img.icons8.com/color/48/000000/git.png"/>
+</a>
+
+[git](https://www.atlassian.com/git/tutorials/learn-git-with-bitbucket-cloud)
