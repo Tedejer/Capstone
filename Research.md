@@ -18,7 +18,22 @@
 
 ### Human Centerd Design
 
+[Design Kit](https://www.designkit.org/human-centered-design)
+
 _A practical, repeatable approach to arriving at innovative solutions._
+
+This design consists of three phases:
+
+1. Inspiration
+1. Ideation
+1. Implementation
+
+The main heart of the process is to keep the stakeholders a part of the project at each part of the development.
+
+Problems people face when looking for chairty / volunteer work
+
+- Where it is located
+- How the money is being used
 
 ---
 
@@ -75,6 +90,8 @@ Strongly typed programming language that builds on top of Javascript giving bett
 
 [Sass Website](https://sass-lang.com/)
 
+[SMACSS](http://smacss.com/book/)
+
 [TOP](#contents)
 
 ---
@@ -88,6 +105,12 @@ Strongly typed programming language that builds on top of Javascript giving bett
 ---
 
 ## Meeting Notes
+
+**Meeting Format**
+
+1. Talk about MVP show wireframe / what we have made
+2. Talk about what we are doing around human centred design getting data
+3. Experimental concepts that we can maybe try to implement if it is logical viable or possible
 
 **Feb 10**
 
