@@ -55,39 +55,38 @@
         </div>
     </div> -->
 
-<!-- Start of V3 Profile Page -->
-<div class="profile_body"> <!-- Profile Pic and Settings -->
-  <div class="change_pic">
-    <label class="-label" for="file">
-      <span>Change Your Pic!</span>
-    </label>
-    <input id="file" type="file" onchange="loadFile(event)"/>
-    <img src="https://i.pinimg.com/474x/65/25/a0/6525a08f1df98a2e3a545fe2ace4be47.jpg" id="output" width="200"/>
-  </div>
+  <div class="spotify_profile">
+    <div class="spotify_pfp">
+      <label class="-label" for="file" style="position: relative; left: -733px; top: 21px;">
+        <span style="position: relative; left: 34px; top: 82px; transition: none 0s ease 0s; cursor: move;" data-selected="true" data-label-id="0">Change Your Pic</span>
+      </label>
+      <input id="file" type="file" onchange="loadFile(event)">
+      <img class="spot_profile" src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/45434/134438/main-image" id="output" width="200">
 
-  <div class="profile_settings_positioning">
-    <div class="p-3 py-5" data-selected="true" data-label-id="0" style="transition: none 0s ease 0s; cursor: move; position: relative;">
-      <div class="d-flex justify-content-between align-items-center mb-3">
-          <h3 class="text-center" style="position: relative; left: 133px; top: -8px;">Profile Settings</h3>
-      </div>
-      <div class="row mt-2">
-          <div class="col-md-6"><label class="labels">First Name</label><input type="text" class="form-control" placeholder="First name" value=""></div>
-          <div class="col-md-6"><label class="labels">Last Name</label><input type="text" class="form-control" value="" placeholder="Last Name"></div>
-      </div>
-      <div class="row mt-3">
-          <div class="col-md-12"><label class="labels">Email</label><input type="text" class="form-control" placeholder="Enter email address" value=""></div>
-          <div class="col-md-12"><label class="labels" style="padding: 13px 4px 1px 2px;">Username</label><input type="text" class="form-control" placeholder="Username" value=""></div>
-      </div>
-      <div class="mt-5 text-center">
-        <a href="usersettings.html">
-          <button class="btn btn-primary profile-button" type="button">Update Profile</button>
-        </a>
-      </div>
+      
     </div>
   </div>
+    
+  <!-- <div class="spotify_bio">
+      <h4 class="profile_text">Profile</h4>
+      <h1 class="username_text">Username</h1>
+      <p class="first_name_text">First Name</p>
+      <p class="last_name_text">Last Name</p>
+      <p class="email_text">Email</p>
+      <h3 class="profile_points">Points:</h3>
+  </div> -->
+     
 
-</div>
-<!-- End of V3 Profile Page -->
+    <!-- <div class="profile_modal">
+      <div class="profile_details_edit">
+        <div class="edit_details_box">
+          <h1 class="edit-bio_text">Edit Your Bio</h1>
+        </div>
+
+      </div>
+    </div> -->
+     
+  
 
   <div class=" mt-auto container">
     <footer class="py-3 my-4">
@@ -103,5 +102,6 @@
     integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
     crossorigin="anonymous"></script>
   <script src="./js/profilepicture.js"></script>
+  <script src="jquery-3.5.1.min.js"></script>
 </body>
 </html>

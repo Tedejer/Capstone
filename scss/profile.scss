@@ -1,143 +1,164 @@
-.profile_body {
-    grid-column: 1/3;
-    grid-row: 1;
-    margin: 50px;
-}
-
-.profile_settings_positioning {
-    // height: 200px;
-    // display: flex;
-    // align-items: center;
-    // justify-content: center;
-    width: 500px;
-    margin: 0 auto;
-}
-
-h3 {
-    color: #294c60;
-}
-
-.labels {
-    color: #294c60;
-}
-
-@mixin object-center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+@mixin picture-location{
+   display: flex;
+   justify-content: center;
+   align-items: center;
   
-  $circleSize: 165px;
-  $radius: 100px;
-  $shadow: 0 0 10px 0 rgba(255,255,255,.35);
-  $fontColor: rgb(250,250,250);
-  
-  .change_pic {
+}
+
+  .spotify_pfp {
     color: transparent;
     transition: all .3s ease;
-    @include object-center;
     position: relative;
     transition: all .3s ease;
-    
+    @include picture-location;
+  
     input {
       display: none;
+
     }
-    
-    img {
+
+    .spot_profile {
       position: absolute;
       object-fit: cover;
-      width: $circleSize;
-      height: $circleSize;
-      box-shadow: $shadow;
-      border-radius: $radius;
+      width: 200px;
+      height: 200px;
+      box-shadow: 0 0 10px 0 rgba(255, 255, 255, .35);
       z-index: 0;
+      border-radius: 50%;
+      border: 4px solid #294c60;
+      top: 20px;
+      left: 20px;
+      margin: 20px;
     }
-    
+
     .-label {
       cursor: pointer;
-      height: $circleSize;
-      width: $circleSize;
+      height: 200px;
+      width: 200px;
+      left: 20px;
+      top: 20px;
+      margin: 20px;
     }
-    
+
     &:hover {
       .-label {
-        @include object-center;
         background-color: rgba(0,0,0,.8);
         z-index: 10000;
-        color: $fontColor;
+        color: white;
         transition: background-color .2s ease-in-out;
-        border-radius: $radius;
+        border-radius: 50%;
         margin-bottom: 0;
+        top: 20px;
+        left: 20px;
+        
       }
     }
-    
+
     span {
       display: inline-flex;
       padding: .2em;
       height: 2em;
+      
     }
   }
 
-// Commented for Documentation Purposes
 
-// .profilepic { // white circle positioning
-//     margin-right: 6px;
-//     vertical-align: top;
-//     border-radius: 50%;
-//     width: 80px;
-//     height: 80px;
-//     overflow: hidden;
-//     border: 10px rgb(0, 0, 0);
-//     -webkit-transform: translateZ(0);
-//     position: absolute;
-// }
-  
-// .profile_settings_positioning {
-//     // height: 200px;
-//     // display: flex;
-//     // align-items: center;
-//     // justify-content: center;
-//     width: 500px;
-//     margin: 0 auto;
-// }
+.profile_text {
+  color: #294c60;
+  font-size: 25;
+  position: relative;
+  // left: 253px;
+  // top: -219px;
+  text-align: left;
+}
 
-// .profile_pic_position { // actual profile pic
-//     // margin-left: 500px;
-//     // margin-bottom: 50px;
-//     // position: relative;
-//     // height: 90px;
-//     // width: 90px;
-//     // display: block;
-//     width: 90px;
-//     height: 90px;
-//     margin: auto;
-//     border-radius: 50%;
-//     position: relative;
-// }
-  
-// .profile_pic_changer { // white circle properties
-//     background: rgb(255, 255, 255);
-//     bottom: 0;
-//     position: absolute;
-//     right: 0;
-//     overflow: visible;
-//     height: 30px;
-//     width: 30px;
-// }
-  
-// .changer_button { // positioning of down arrow up and down
-//     bottom: 0;
-//     margin: 0px 2.5px 3px;
-//     outline: 0;
-//     position: absolute;
-//     right: 0;
-//     height: 26px;
-//     width: 23px;
-//     cursor: pointer;
-// }
-    
-// .downarrow { // positioning of down arrow left and right
-//     position: relative; 
-//     left: -5px; 
-//     top: -2px;
-// }
+.username_text {
+  color: #294c60;
+  font-size: 61;
+  position: relative;
+  // left: 253px;
+  // top: -241px;
+  text-align: left;
+}
+
+.first_name_text {
+  color: #294c60;
+  font-size: 18;
+  position: relative;
+  // left: 253px;
+  // top: -255px;
+}
+
+.last_name_text {
+  color: #294c60;
+  font-size: 18;
+  position: relative;
+  // left: 346px;
+  // top: -298px;
+}
+
+.email_text {
+  color: #294c60;
+  font-size: 18;
+  position: relative;
+  // left: 253px;
+  // top: -315px;
+}
+
+.profile_points {
+  color: #294c60;
+  font-size: 30;
+  position: relative;
+  // left: 253px;
+  // top: -300px;
+}
+
+.profile_modal {
+  color: black;
+  align-items: center;
+  justify-content: center;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  top: 0;
+
+}
+
+.profile_details_edit {
+  color: #282828;
+  border-radius: 8px;
+  color: white;
+  flex-direction: column;
+  min-height: 384px;
+  width: 524px;
+}
+
+.edit_bio_box {
+  display: flex;
+}
+
+.modal_pic {
+  height: 100%;
+  width: 100%;
+}
+
+.modal_pic_current {
+  height: 180;
+  width: 180;
+  position: relative;
+  margin: 0;
+  border-radius: 50%;
+}
+
+.profile_modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 50px;
+  height: 50px;
+
+}
+
