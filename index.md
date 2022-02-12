@@ -38,7 +38,7 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ### Roadmap
 
-- Feuburary
+- February
   - Front End Version 1 February 1st - February 14th
   - Front End Version 2 February 15th - February 19th
   - Back End Version 1 February 20th - February 28th

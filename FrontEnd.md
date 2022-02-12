@@ -24,6 +24,8 @@
   - Layout
   - Buttons
   - Accessability
+-Features 
+  -implementing a scroll feature for all pages 
 
 ### Current Front-End Concerns
 
