@@ -12,6 +12,10 @@
   - Layout
   - Buttons
   - Accessability
+- Search
+  Layout
+  - Buttons
+  - Accessability
 - Dashboard
   - Layout
   - Buttons
@@ -24,12 +28,8 @@
   - Layout
   - Buttons
   - Accessability
--Features 
-  -implementing a scroll feature for all pages 
-
-### Current Front-End Concerns
-
-- Page distribution
+    -Features
+  - implementing a scroll feature for all pages
 
 ## Concept
 
@@ -44,11 +44,3 @@ Created using figma
 As of Feb 5, 2022
 
 ![layout](./misc/Info_layout.PNG)
-
-## Concept Art
-
-![art1](./misc/artconcept1.jpg)
-![art2](./misc/artconcept2.jpg)
-![art3](./misc/brand_concept1.png)
-![art4](./misc/brand_concept2.png)
-![art5](./misc/brand_concept3.png)
