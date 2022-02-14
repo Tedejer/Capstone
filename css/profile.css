@@ -58,12 +58,13 @@
 }
 
 .history_table {
-  width: 100%;
+  width: 99.5%;
   border: 2px solid #294c60;
   position: relative;
   overflow: auto;
   top: -254px;
   left: 5px;
   color: #294c60;
+  padding: 10px;
 }
 /*# sourceMappingURL=profile.css.map */
