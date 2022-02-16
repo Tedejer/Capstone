@@ -39,6 +39,6 @@
 
 ## Current State
 
-As of Feb 5, 2022
+As of Feb 15, 2022
 
-![Chairty Info Page](./misc/Info_layout.PNG)
+![Chairty Info Page](./misc/Search_Page.PNG)
