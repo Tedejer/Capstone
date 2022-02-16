@@ -10,7 +10,7 @@
 
 - General
 - [] implementing a scroll feature for all pages
-- [] implement react SPAS
+- [] implement react
 
 - Login
   - [x] Layout
