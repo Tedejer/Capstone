@@ -8,28 +8,34 @@
 
 ## TODO:
 
+- General
+- [] implementing a scroll feature for all pages
+- [] implement react SPAS
+
 - Login
-  - Layout
-  - Buttons
-  - Accessability
+  - [x] Layout
+  - [x] Buttons
+  - [] Accessability
 - Search
-  Layout
-  - Buttons
-  - Accessability
+  - [] Layout
+  - [] Buttons
+  - [] Accessability
 - Dashboard
-  - Layout
-  - Buttons
-  - Accessability
+  - [] Layout
+  - [] Buttons
+  - [] Accessability
+- User Pages
+  - User Register
+  - Profile
 - Info
-  - Layout
-  - Buttons
-  - Accessability
+  - [] Layout
+  - [] Buttons
+  - [] Accessability
+  - [] scroll feature
 - About
-  - Layout
-  - Buttons
-  - Accessability
-    -Features
-  - implementing a scroll feature for all pages
+  - [] Layout
+  - [] Buttons
+  - [] Accessability
 
 ## Concept
 
