@@ -27,9 +27,8 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ### Tech Stack
 
-![TypeScript](https://img.icons8.com/color/48/000000/typescript.png)
 ![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png)
-![Bootstrap](https://img.icons8.com/color/48/000000/sass-avatar.png)
+
 ![React](https://img.icons8.com/office/40/000000/react.png)
 
 ![NodeJs](https://img.icons8.com/color/48/000000/nodejs.png)
