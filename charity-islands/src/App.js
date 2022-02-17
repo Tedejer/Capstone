@@ -1,6 +1,7 @@
 import React from "react";
-import { Route, Routes, Link } from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 
+import Navbar from "./components/Navbar";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import UserPage from "./pages/UserPage";
@@ -13,11 +14,7 @@ function App() {
       <header>
         <h1>Charity Islands</h1>
       </header>
-      <nav>
-        <Link to="/">Home</Link>
-        <Link to="/LoginPage">Login</Link>
-        <Link to="/AboutPage">About</Link>
-      </nav>
+      <Navbar />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/LoginPage" element={<LoginPage />} />
