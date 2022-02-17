@@ -25,6 +25,13 @@ function LoginPage() {
         >
           Login
         </button>
+        <button
+          onClick={() => {
+            navigate("/Register");
+          }}
+        >
+          Register
+        </button>
       </form>
     </div>
   );
