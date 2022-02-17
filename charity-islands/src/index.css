@@ -14,3 +14,16 @@
 .space {
   margin-top: 5%;
 }
+
+.footer {
+  text-align: center;
+  padding: 10;
+  background-color: #294c60;
+  color: white;
+  position: fixed;
+  height: 50px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 0px;
+}
