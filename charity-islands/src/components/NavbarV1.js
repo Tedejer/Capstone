@@ -14,7 +14,7 @@ function NavbarV1() {
       <div>
         <Navbar bg="dark" variant="dark" expand="sm">
           <Container>
-            <Navbar.Brand href="/">
+            <Navbar.Brand as={Link} to="/">
               <img
                 src={brand_light}
                 alt="Charity Islands"
@@ -25,14 +25,11 @@ function NavbarV1() {
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
               <Nav className="me-auto">
-                <Nav.Link as={Link} to="/">
-                  Home
+                <Nav.Link as={Link} to="/LoginPage">
+                  Login
                 </Nav.Link>
                 <Nav.Link as={Link} to="/AboutPage">
                   About
-                </Nav.Link>
-                <Nav.Link as={Link} to="/LoginPage">
-                  Login
                 </Nav.Link>
               </Nav>
             </Navbar.Collapse>
