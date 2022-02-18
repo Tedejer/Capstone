@@ -1,7 +1,8 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+import { Navbar, Nav, NavDropdown, Container } from "react-bootstrap";
 
-import Navbar from "./components/Navbar";
+import NavbarV1 from "./components/NavbarV1";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import UserPage from "./pages/UserPage";
@@ -13,10 +14,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <header>
-        <h1>Charity Islands</h1>
-      </header>
-      <Navbar />
+      <NavbarV1 />
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/LoginPage" element={<LoginPage />} />
