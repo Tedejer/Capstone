@@ -1,10 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
-
-import HomePage from "../pages/HomePage";
-import AboutPage from "../pages/AboutPage";
-import LoginPage from "../pages/LoginPage";
+import { Navbar, Nav, Container } from "react-bootstrap";
 
 var brand_light = require("../assets/brand_light.svg");
 
