@@ -1,0 +1,22 @@
+.register_positioning {
+    width: 500px;
+    margin: 0 auto;
+  }
+  
+  .text-center {
+    color: #294c60;
+    position: relative;
+    left: 125px;
+    top: -6px;
+  }
+  
+  .labels {
+    color: #294c60;
+  }
+
+.btn-primary  {
+    margin: 5px; 
+    position: relative; 
+    left: -130px; 
+    top: -5px
+}
