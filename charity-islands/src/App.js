@@ -14,9 +14,6 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
-      <header>
-        <h1>Charity Islands</h1>
-      </header>
       <NavbarV1 />
       <Routes>
         <Route path="/" element={<HomePage />} />
