@@ -1,8 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
-
-var brand_light = require("../assets/brand_light.svg");
+import logo from "../assets/brand_light.svg";
 
 function NavbarV1() {
   return (
@@ -11,12 +10,7 @@ function NavbarV1() {
         <Navbar bg="dark" variant="dark" expand="sm">
           <Container>
             <Navbar.Brand as={Link} to="/">
-              <img
-                src={brand_light}
-                alt="Charity Islands"
-                width="40"
-                height="40"
-              />
+              <img src={logo} alt="Charity Islands" width="40" height="40" />
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
@@ -37,4 +31,3 @@ function NavbarV1() {
 }
 
 export default NavbarV1;
-export { brand_light };
