@@ -27,6 +27,7 @@ function UserPage() {
                 <input type="text" class="form-control" placeholder="JohnDoe@example.com" value=""/>
             </div>
         </div>
+        
         <div class="row mt-3">
                 <div class="col-md-12">
                     <label class="labels">Password</label>
