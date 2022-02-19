@@ -1,0 +1,23 @@
+.Home-Page {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.Home-Page-Title {
+  color: #294c60;
+  font-size: 75px;
+  vertical-align: bottom;
+  padding: 0;
+}
+
+.Search-Bar {
+  padding: 10px;
+  position: relative;
+}
+
+.btn btn-outline-primary {
+  background-color: #294c60;
+}

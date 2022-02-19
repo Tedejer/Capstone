@@ -1,6 +1,5 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
-
 import NavbarV1 from "./components/NavbarV1";
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
@@ -9,6 +8,7 @@ import Register from "./pages/Register";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
+import "./css/main.css";
 
 function App() {
   return (
