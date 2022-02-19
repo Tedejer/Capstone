@@ -38,13 +38,6 @@ function AboutPage() {
           </div>
         </div>
       </section>
-
-      <div className="space">
-        <img
-          src="https://wakatime.com/badge/user/e48fee3e-ead5-429e-880c-36c0316e81d5/project/6ffded4b-aa6b-498d-bc45-f3d16d0c29bf?style=plastic.svg"
-          alt="wakatime"
-        />
-      </div>
     </div>
   );
 }
