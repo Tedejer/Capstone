@@ -3,7 +3,7 @@ import React from "react";
 function AboutPage() {
   return (
     <div>
-      <h1 class="About-Header">AboutPage</h1>
+      <h1 class="About-Header">About Page</h1>
       <section class="About=container">
         <div class="Question-1">
           <h1 class="About-Page">What is Charity Islands?</h1>

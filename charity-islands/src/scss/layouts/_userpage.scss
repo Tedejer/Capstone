@@ -1,0 +1,32 @@
+.profile_positioning {
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.profile-title {
+    text-align: center;
+    color: #294c60;
+}
+
+.profile-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    
+}
+
+.btn-primary {
+    margin: 5px;
+    position: relative;
+    left: -130px;
+    top: 5px;
+  }
+
+.btn-secondary {
+    margin: 5px;
+    position: relative;
+    top: 5px;
+    left: -120px;
+}
