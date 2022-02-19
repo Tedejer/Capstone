@@ -1,7 +1,8 @@
 import React from "react";
-import "../styling/userPage.css";
+import { useParams } from "react-router-dom";
 
 function UserPage() {
+  let { username } = useParams();
   return (
     <div className="profile-body">
       <h1> {username} Profile Page</h1>
