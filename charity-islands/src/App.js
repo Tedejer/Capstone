@@ -9,6 +9,7 @@ import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import Profile from "./pages/Profile";
 import Footer from "./components/Footer";
+
 import "./css/main.css";
 
 function App() {

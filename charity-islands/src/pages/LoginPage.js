@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Form, FormGroup, FormLabel, Button } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
@@ -8,31 +9,44 @@ function LoginPage() {
 
   return (
     <div>
-      <h1>Login</h1>
-      <form>
-        <input
-          type="userName"
-          placeholder="Username"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        />
-        <input type="password" placeholder="Password" />
-        <button
-          onClick={() => {
-            profile = profile + name;
-            navigate(profile);
-          }}
-        >
-          Login
-        </button>
-        <button
-          onClick={() => {
-            navigate("/Register");
-          }}
-        >
-          Register
-        </button>
-      </form>
+      <Form className="login_pos">
+        <div className=" d-flex justify-content-center">
+          <h1>Login</h1>
+        </div>
+        <FormGroup className="mb-3" controlId="formBasicUsername">
+          <FormLabel>Username:</FormLabel>
+          <Form.Control
+            type="username"
+            placeholder="Enter username"
+            value={name}
+            onChange={(e) => setName(e.target.value)}
+          />
+        </FormGroup>
+        <FormGroup className="mb-3" controlId="formBasicUsername">
+          <FormLabel>Password:</FormLabel>
+          <Form.Control type="password" placeholder="Enter password" />
+        </FormGroup>
+
+        <div className="mt-5 text-center">
+          <Button
+            className="btn-primary"
+            onClick={() => {
+              profile = profile + name;
+              navigate(profile);
+            }}
+          >
+            Login
+          </Button>
+          <Button
+            onClick={() => {
+              navigate("/Register");
+            }}
+          >
+            Register
+          </Button>
+        </div>
+      </Form>
+      {/* end form */}
     </div>
   );
 }
