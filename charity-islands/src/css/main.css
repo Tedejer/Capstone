@@ -1,0 +1,69 @@
+.About-Header {
+  text-align: center;
+}
+
+.About-Page {
+  color: #294c60;
+  padding: 10px 20px;
+  width: 60%;
+  border: none;
+  outline: none;
+  margin: auto;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.About-Body {
+  margin: auto;
+  width: 50%;
+  padding: auto;
+}
+
+.Home-Page {
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.Home-Page-Title {
+  color: #294c60;
+  font-size: 75px;
+  vertical-align: bottom;
+  padding: 0;
+}
+
+.Search-Bar {
+  padding: 10px;
+  position: relative;
+}
+
+.btn btn-outline-primary {
+  background-color: #294c60;
+}
+
+.register_positioning {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.text-center {
+  color: #294c60;
+  position: relative;
+  left: 125px;
+  top: -6px;
+}
+
+.labels {
+  color: #294c60;
+}
+
+.btn-primary {
+  margin: 5px;
+  position: relative;
+  left: -130px;
+  top: -5px;
+}
+
+/*# sourceMappingURL=main.css.map */
