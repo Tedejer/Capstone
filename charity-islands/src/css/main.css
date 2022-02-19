@@ -44,16 +44,16 @@
 }
 
 .save-button {
-  margin: 5px;
+  margin: 10px;
   position: relative;
+  top: -5px;
   left: -130px;
-  top: 5px;
 }
 
 .cancel-button {
-  margin: 5px;
+  margin: 10px;
   position: relative;
-  top: 5px;
+  top: -5px;
   left: -120px;
 }
 
