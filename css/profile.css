@@ -1,0 +1,70 @@
+.profile_pic {
+  border-radius: 50%;
+  border: 5px solid #294c60;
+  height: 200;
+  width: 200;
+  margin: 20px;
+  position: relative;
+}
+
+.profile_text {
+  color: #294c60;
+  font-size: 25;
+  position: relative;
+  left: 253px;
+  top: -219px;
+  text-align: left;
+}
+
+.username_text {
+  color: #294c60;
+  font-size: 61;
+  position: relative;
+  left: 250px;
+  top: -241px;
+  text-align: left;
+}
+
+.first_name_text {
+  color: #294c60;
+  font-size: 18;
+  position: relative;
+  left: 253px;
+  top: -255px;
+}
+
+.last_name_text {
+  color: #294c60;
+  font-size: 18;
+  position: relative;
+  left: 346px;
+  top: -298px;
+}
+
+.email_text {
+  color: #294c60;
+  font-size: 18;
+  position: relative;
+  left: 253px;
+  top: -315px;
+}
+
+.profile_points {
+  color: #294c60;
+  font-size: 30;
+  position: relative;
+  left: 253px;
+  top: -300px;
+}
+
+.history_table {
+  width: 99.5%;
+  border: 2px solid #294c60;
+  position: relative;
+  overflow: auto;
+  top: -254px;
+  left: 5px;
+  color: #294c60;
+  padding: 10px;
+}
+/*# sourceMappingURL=profile.css.map */
