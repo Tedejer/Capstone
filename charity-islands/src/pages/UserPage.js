@@ -1,5 +1,5 @@
 import React from "react";
-import "../styling/userPage.css";
+import "../styling/UserPage.css";
 
 
 function UserPage() {
@@ -27,6 +27,7 @@ function UserPage() {
                 <input type="text" class="form-control" placeholder="JohnDoe@example.com" value=""/>
             </div>
         </div>
+        
         <div class="row mt-3">
                 <div class="col-md-12">
                     <label class="labels">Password</label>
