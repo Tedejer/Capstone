@@ -7,6 +7,7 @@ import UserPage from "./pages/UserPage";
 import Register from "./pages/Register";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
+import Profile from "./pages/Profile";
 import Footer from "./components/Footer";
 
 import "./css/main.css";
@@ -20,6 +21,7 @@ function App() {
         <Route path="/LoginPage" element={<LoginPage />} />
         <Route path="/UserPage/:username" element={<UserPage />} />
         <Route path="/Register" element={<Register />} />
+        <Route path="/Profile" element={<Profile />} />
         <Route path="/AboutPage" element={<AboutPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
