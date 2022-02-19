@@ -8,6 +8,7 @@ import Register from "./pages/Register";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import Footer from "./components/Footer";
+
 import "./css/main.css";
 
 function App() {
