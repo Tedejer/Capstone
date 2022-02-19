@@ -57,11 +57,18 @@ function Register() {
             </div>
           </div>
           <div class="mt-5 text-center">
-            <Link as={Link} to="/">
-              <button class="btn btn-primary profile-button" type="button">
-                Register
-              </button>
-            </Link>
+            <div>
+              <Link as={Link} to="/">
+                <button class="btn btn-primary register-button" type="button">
+                  Register
+                </button>
+              </Link>
+              <Link as={Link} to="/">
+                <button class="btn btn-secondary cancel-button" type="button">
+                  Cancel
+                </button>
+              </Link>
+            </div>
           </div>
         </div>
       </div>
