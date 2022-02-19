@@ -7,7 +7,7 @@ import UserPage from "./pages/UserPage";
 import Register from "./pages/Register";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
-import Profile from "./pages/Profile";
+import Profile from "./pages/ProfileSettings";
 import Footer from "./components/Footer";
 
 import "./css/main.css";
