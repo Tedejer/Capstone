@@ -1,5 +1,5 @@
 import React from "react";
-import "../styling/UserPage.css";
+import "../styling/userPage.css";
 
 
 function UserPage() {
