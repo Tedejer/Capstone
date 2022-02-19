@@ -9,13 +9,12 @@ function LoginPage() {
 
   return (
     <div>
-      <div className="register_positioning">
-        <h3 className="">Login</h3>
-      </div>
-
-      <Form className="register_positioning">
+      <Form className="login_pos">
+        <div className=" d-flex justify-content-center">
+          <h1>Login</h1>
+        </div>
         <FormGroup className="mb-3" controlId="formBasicUsername">
-          <FormLabel>Username</FormLabel>
+          <FormLabel>Username:</FormLabel>
           <Form.Control
             type="username"
             placeholder="Enter username"
@@ -24,7 +23,7 @@ function LoginPage() {
           />
         </FormGroup>
         <FormGroup className="mb-3" controlId="formBasicUsername">
-          <FormLabel>Password</FormLabel>
+          <FormLabel>Password:</FormLabel>
           <Form.Control type="password" placeholder="Enter password" />
         </FormGroup>
 
