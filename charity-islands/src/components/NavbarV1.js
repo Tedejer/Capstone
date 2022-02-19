@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import { Navbar, Nav, Container } from "react-bootstrap";
-import logo from "../assets/brand_light.svg";
+import logo from "../assets/brand_flat.svg";
 
 function NavbarV1() {
   return (
