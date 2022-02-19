@@ -21,6 +21,9 @@ function NavbarV1() {
                 <Nav.Link as={Link} to="/AboutPage">
                   About
                 </Nav.Link>
+                <Nav.Link as={Link} to="/Profile">
+                  Profile
+                </Nav.Link>
               </Nav>
             </Navbar.Collapse>
           </Container>
