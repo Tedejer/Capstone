@@ -1,0 +1,14 @@
+.error-msg {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.error-home-button {
+    display: grid;
+    justify-content: center;
+    margin: auto;
+    padding: 10px;
+}
