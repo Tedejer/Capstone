@@ -1,7 +1,11 @@
 import React from "react";
 
-function Footer() {
-  return <footer className="footer">Footer</footer>;
-}
+const Footer = () => (
+  <footer className="footer">
+    <p>© 2022 Copyright | Charity Islands | All Rights Reserved</p>
+  
+  </footer>
+);
+  
 
 export default Footer;
