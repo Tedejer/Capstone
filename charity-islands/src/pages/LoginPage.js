@@ -29,21 +29,20 @@ function LoginPage() {
 
         <div className="mt-5 text-center">
           <Button
-            className="btn-primary"
             onClick={() => {
               profile = profile + name;
               navigate(profile);
             }}
           >
             Login
-          </Button>
+          </Button>{" "}
           <Button
             onClick={() => {
               navigate("/Register");
             }}
           >
             Register
-          </Button>
+          </Button>{" "}
         </div>
       </Form>
       {/* end form */}
