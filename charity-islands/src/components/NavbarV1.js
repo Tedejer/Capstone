@@ -1,13 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import logo from "../assets/brand_flat.svg";
 
 function NavbarV1() {
   return (
-    <div>
-      <div>
-        <Navbar bg="dark" variant="dark" expand="sm">
+        <Navbar classname="color-nav" bg="dark" variant="dark" expand="sm">
           <Navbar className="Container-fluid">
             <Navbar.Brand as={Link} to="/">
               <img src={logo} alt="Charity Islands" width="40" height="40" />
@@ -28,8 +26,6 @@ function NavbarV1() {
               </Nav>
             </Navbar.Collapse>
         </Navbar>
-      </div>
-    </div>
   );
 }
 

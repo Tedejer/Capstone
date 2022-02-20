@@ -174,14 +174,19 @@
 .footer {
   text-align: center;
   padding: 10;
-  background-color: #294c60;
+  background-color: black;
+  opacity: 0.8;
   color: white;
   position: fixed;
-  height: 50px;
+  height: 25px;
   bottom: 0px;
   left: 0px;
   right: 0px;
   margin-bottom: 0px;
+}
+
+.color-nav {
+  background-color: #000000;
 }
 
 /*# sourceMappingURL=main.css.map */
