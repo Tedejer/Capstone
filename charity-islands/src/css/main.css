@@ -25,38 +25,6 @@
   padding: auto;
 }
 
-.profile_positioning {
-  width: 500px;
-  margin: 0 auto;
-  padding: 10px;
-}
-
-.profile-title {
-  text-align: center;
-  color: #294c60;
-}
-
-.profile-pic {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
-
-.save-button {
-  margin: 10px;
-  position: relative;
-  top: -5px;
-  left: -130px;
-}
-
-.cancel-button {
-  margin: 10px;
-  position: relative;
-  top: -5px;
-  left: -120px;
-}
-
 .register_positioning {
   width: 500px;
   margin: 0 auto;
@@ -167,6 +135,38 @@
   justify-content: center;
   margin: auto;
   padding: 10px;
+}
+
+.profile_positioning {
+  width: 500px;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+.profile-title {
+  text-align: center;
+  color: #294c60;
+}
+
+.profile-pic {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.save-button {
+  margin: 10px;
+  position: relative;
+  top: -5px;
+  left: -130px;
+}
+
+.cancel-button {
+  margin: 10px;
+  position: relative;
+  top: -5px;
+  left: -120px;
 }
 
 .footer {
