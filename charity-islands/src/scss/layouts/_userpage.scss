@@ -1,0 +1,52 @@
+.welcome-msg {
+    color: #294c60;
+    text-align: center;
+}
+
+.profile_pic {
+    border-radius: 50%;
+    border: 5px solid #294c60;
+    height: 200px;
+    width: 200px;
+    margin: 20px;
+    position: relative;
+  }
+  
+.username_text {
+    color: #294c60;
+    position: relative;
+    text-align: left;
+    font-size: 61;
+    left: 252px;
+    top: -219px;
+    padding: 2px;
+}
+  
+  
+.email_text {
+    color: #294c60;
+    position: relative;
+    text-align: left;
+    font-size: 25;
+    left: 253px;
+    top: -185px;
+}
+  
+.profile_points {
+    color: #294c60;
+    font-size: 50;
+    position: relative;
+    left: 253px;
+    top: -165px;
+}
+  
+.history_table {
+    color: #294c60;
+    position: relative;
+    border: 2px solid #294c60;
+    overflow: auto;
+    width: 99.5%;
+    left: 5px;
+    top: -145px;
+    padding: 10px;
+}
