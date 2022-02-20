@@ -97,7 +97,6 @@
 .username_text {
   color: #294c60;
   position: relative;
-  text-align: left;
   font-size: 61;
   left: 252px;
   top: -219px;
@@ -107,7 +106,6 @@
 .email_text {
   color: #294c60;
   position: relative;
-  text-align: left;
   font-size: 25;
   left: 253px;
   top: -185px;
