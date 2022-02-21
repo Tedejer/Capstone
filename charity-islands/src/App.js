@@ -4,7 +4,6 @@ import { Route, Routes } from "react-router-dom";
 // Components
 import NavbarV1 from "./components/NavbarV1";
 import Footer from "./components/Footer";
-import Debug from "./components/Debug";
 
 // Pages
 import HomePage from "./pages/HomePage";
@@ -14,6 +13,7 @@ import Register from "./pages/Register";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import Profile from "./pages/ProfileSettings";
+import DebugPage from "./pages/DebugPage";
 
 import "./css/main.css";
 
@@ -28,9 +28,9 @@ function App() {
         <Route path="/Register" element={<Register />} />
         <Route path="/Profile" element={<Profile />} />
         <Route path="/AboutPage" element={<AboutPage />} />
+        <Route path="/Debug" element={<DebugPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
-      <Debug />
       <Footer />
     </div>
   );

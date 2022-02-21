@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function Debug() {
+function ServerStatus() {
   const [data, setData] = React.useState(null);
   const [toggle, setToggle] = useState("false");
 
@@ -22,4 +22,4 @@ function Debug() {
   );
 }
 
-export default Debug;
+export default ServerStatus;
