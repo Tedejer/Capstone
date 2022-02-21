@@ -1,6 +1,12 @@
 import React from "react";
 import { Route, Routes } from "react-router-dom";
+
+// Components
 import NavbarV1 from "./components/NavbarV1";
+import Footer from "./components/Footer";
+import Debug from "./components/Debug";
+
+// Pages
 import HomePage from "./pages/HomePage";
 import LoginPage from "./pages/LoginPage";
 import UserPage from "./pages/UserPage";
@@ -8,7 +14,6 @@ import Register from "./pages/Register";
 import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import Profile from "./pages/ProfileSettings";
-import Footer from "./components/Footer";
 
 import "./css/main.css";
 
@@ -25,6 +30,7 @@ function App() {
         <Route path="/AboutPage" element={<AboutPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      <Debug />
       <Footer />
     </div>
   );
