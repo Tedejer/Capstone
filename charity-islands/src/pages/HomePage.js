@@ -1,6 +1,9 @@
 import React from "react";
 import logo from "../assets/brand_dark.svg";
 
+// Components
+import AdvSearch from "../components/AdvSearch.js";
+
 function HomePage() {
   return (
     <div class="Home-Page">
@@ -21,6 +24,7 @@ function HomePage() {
           </button>
         </form>
       </div>
+      <AdvSearch />
     </div>
   );
 }
