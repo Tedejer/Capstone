@@ -16,6 +16,7 @@ import Profile from "./pages/ProfileSettings";
 import DebugPage from "./pages/DebugPage";
 import InfoPage from "./pages/InfoPage";
 
+// Styling
 import "./css/main.css";
 
 function App() {
@@ -30,8 +31,8 @@ function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/AboutPage" element={<AboutPage />} />
         <Route path="/Debug" element={<DebugPage />} />
-        <Route path="*" element={<ErrorPage />} />
         <Route path="/InfoPage" element={<InfoPage />} />
+        <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
     </div>

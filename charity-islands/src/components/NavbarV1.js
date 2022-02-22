@@ -23,6 +23,10 @@ function NavbarV1() {
           <Nav.Link as={Link} to="/Profile">
             Profile
           </Nav.Link>
+          {/* Temp Buttons */}
+          <Nav.Link as={Link} to="/InfoPage">
+            Charity
+          </Nav.Link>
           <Nav.Link as={Link} to="/Debug">
             Debug
           </Nav.Link>
