@@ -1,4 +1,4 @@
-[![Brand_Name](./front-end/misc/Brand_Name.png)](https://tedejer.github.io/Capstone/)
+[![Brand_Name](./Brand_Name.png)](https://tedejer.github.io/Capstone/)
 
 ## About
 
