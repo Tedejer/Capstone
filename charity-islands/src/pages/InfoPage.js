@@ -18,3 +18,8 @@ function InfoPage(){
 }
 
 export default InfoPage;
+
+/* Reminder: To add more content
+    In scss file, edit the 
+    grid-template-columns and
+    grid-template-row lines accordingly */
