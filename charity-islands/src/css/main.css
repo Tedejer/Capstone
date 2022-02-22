@@ -248,4 +248,8 @@
   background-color: #dd0a0a;
 }
 
+.active {
+  display: none;
+}
+
 /*# sourceMappingURL=main.css.map */

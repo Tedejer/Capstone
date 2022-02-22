@@ -1,0 +1,22 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+charity-islands/node_modules
+server/node_modules
+
+# testing
+charity-islands/coverage
+
+# production
+charity-islands/build
+
+# misc
+charity-islands/DS_Store
+charity-islands/env.local
+charity-islands/env.development.local
+charity-islands/env.test.local
+charity-islands/env.production.local
+
+charity-islands/npm-debug.log*
+charity-islands/yarn-debug.log*
+charity-islands/yarn-error.log*
