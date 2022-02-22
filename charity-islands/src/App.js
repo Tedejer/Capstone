@@ -14,6 +14,7 @@ import ErrorPage from "./pages/ErrorPage";
 import AboutPage from "./pages/AboutPage";
 import Profile from "./pages/ProfileSettings";
 import DebugPage from "./pages/DebugPage";
+import InfoPage from "./pages/InfoPage";
 
 import "./css/main.css";
 
@@ -30,6 +31,7 @@ function App() {
         <Route path="/AboutPage" element={<AboutPage />} />
         <Route path="/Debug" element={<DebugPage />} />
         <Route path="*" element={<ErrorPage />} />
+        <Route path="/InfoPage" element={<InfoPage />} />
       </Routes>
       <Footer />
     </div>
