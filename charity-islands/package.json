@@ -1,5 +1,5 @@
 {
-  "name": "charity-islands",
+  "name": "charity-islands-client",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
