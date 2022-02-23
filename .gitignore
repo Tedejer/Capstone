@@ -2,7 +2,7 @@
 
 # dependencies
 charity-islands/node_modules
-server/node_modules
+node_modules
 
 # testing
 charity-islands/coverage
