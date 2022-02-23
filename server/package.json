@@ -20,5 +20,8 @@
   "homepage": "https://github.com/Tedejer/Capstone#readme",
   "dependencies": {
     "express": "^4.17.3"
+  },
+  "engines": {
+    "node": "16.14.0"
   }
 }
