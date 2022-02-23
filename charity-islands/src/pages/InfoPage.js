@@ -5,7 +5,7 @@ function InfoPage(){
     let { charityname } = useParams();
     return (
         <div className="info-body">
-            <div className="container" style={{border: "1px solid red"}}>
+            <div className="container">
                 <div class="info-header">Charity Name</div>
                 <div class="charity-desc">Description</div>
                 <div class="charity-news">News</div>

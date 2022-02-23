@@ -1,23 +1,51 @@
-.Home-Page {
-  position: absolute;
-  top: 40%;
-  left: 50%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+.container-home {
+  width: 100vw;
+  height: 88vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 160px 150px 50px 1fr;
+  box-sizing: border-box;
+
 }
+
+.Logo {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-content: center;
+  align-items: center;
+  float: left;
+}
+
+
 
 .Home-Page-Title {
   color: #294c60;
   font-size: 75px;
-  vertical-align: bottom;
-  padding: 0;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  position: absolute;
+  float: right;
 }
 
 .Search-Bar {
-  padding: 10px;
-  position: relative;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
 }
 
 .btn btn-outline-primary {
   background-color: #294c60;
+}
+
+.AdvSearch-button {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: span 4;
+  top: 0px;
 }

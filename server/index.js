@@ -7,9 +7,10 @@ const PORT = process.env.PORT || 3001;
 const app = express();
 
 app.get("/api", (req, res) => {
-  res.json({ message: "Server: Connection Estabished ✔️" });
+  res.json({ message: "Server Status: Connection Estabished ✔️" });
 });
 
 app.listen(PORT, () => {
+  console.log('Welcome to the Charity Islands Backend')
   console.log(`Server listening on ${PORT}`);
 });
