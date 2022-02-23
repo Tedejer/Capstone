@@ -28,9 +28,10 @@ function AdvSearch() {
             <Row>
               <FormText>Type</FormText>
               <Col>
-                <Form.Check type="checkbox" label="Volunteer Work" />
-                <Form.Check type="checkbox" label="Local" />
-                <Form.Check type="checkbox" label="Fundraising" />
+                <Form.Check type="checkbox" label="Environment" />
+                <Form.Check type="checkbox" label="Food Bank" />
+                <Form.Check type="checkbox" label="Homeless" />
+                <Form.Check type="checkbox" label="Animal" />
               </Col>
             </Row>
             <Row>
