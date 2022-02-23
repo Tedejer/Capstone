@@ -2,7 +2,7 @@
   "name": "charity-islands",
   "version": "0.0.1",
   "description": "[![Brand_Name](./front-end/misc/Brand_Name.png)](https://tedejer.github.io/Capstone/)",
-  "main": "index.js",
+  "main": "./server/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node index.js",
