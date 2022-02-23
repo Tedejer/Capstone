@@ -9,6 +9,7 @@ charity-islands/coverage
 
 # production
 charity-islands/build
+/build
 
 # misc
 charity-islands/DS_Store
