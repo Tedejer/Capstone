@@ -15,6 +15,7 @@ import AboutPage from "./pages/AboutPage";
 import Profile from "./pages/ProfileSettings";
 import DebugPage from "./pages/DebugPage";
 import InfoPage from "./pages/InfoPage";
+import ResultsPage from "./pages/ResultsPage";
 
 // Styling
 import "./css/main.css";
@@ -32,6 +33,7 @@ function App() {
         <Route path="/AboutPage" element={<AboutPage />} />
         <Route path="/Debug" element={<DebugPage />} />
         <Route path="/InfoPage" element={<InfoPage />} />
+        <Route path="/ResultsPage" element={<ResultsPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />
