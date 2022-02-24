@@ -103,7 +103,7 @@
   height: 88vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 160px 150px 50px 1fr;
+  grid-template-rows: 160px 160px 50px 1fr;
   box-sizing: border-box;
 }
 
@@ -114,18 +114,6 @@
   grid-row-end: 3;
   justify-content: center;
   align-items: center;
-  float: left;
-}
-
-.Home-Page-Title {
-  color: #294c60;
-  font-size: 75px;
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  position: absolute;
-  float: right;
 }
 
 .Search-Bar {
