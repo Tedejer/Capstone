@@ -6,10 +6,10 @@ function InfoPage(){
     return (
         <div className="info-body">
             <div className="container">
-                <div class="info-header">Charity Name</div>
+                <div class="info-header">{charityname}</div>
                 <div class="charity-desc">Description</div>
                 <div class="charity-news">News</div>
-                <div class="also-viewed">Also Viewed</div>
+                {/* <div class="also-viewed">Also Viewed</div> */}
                 <div class="charity-reviews">Reviews</div>
                 {/* <div class="metric-display">Metric Display</div> */}
             </div>

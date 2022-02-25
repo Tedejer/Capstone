@@ -28,19 +28,11 @@
     grid-row-start: 2;
     grid-row-end: span 2;
     grid-column-start: 1;
-    grid-column-end: 3;
+    grid-column-end: 5;
     text-align: center;
 }
 
-.result-info-button {
-    // grid-row-start: 3;
-    // grid-row-end: 4;
-    // grid-column-start: 1;
-    // grid-column-end: 2;
-    position: absolute;
-    top: 50%;
-    left: 10%;
-    margin-right: -50%;
-    transform: translate(-50%, -50%);
-    
+.result-1 {
+    text-align: left;
+    list-style-type: circle;
 }

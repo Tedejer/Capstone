@@ -217,17 +217,8 @@
 }
 
 .charity-news {
-  grid-row-start: 3;
-  grid-row-end: 4;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  text-align: center;
-  overflow: auto;
-}
-
-.also-viewed {
   grid-row-start: 2;
-  grid-row-end: 3;
+  grid-row-end: 4;
   grid-column-start: 3;
   grid-column-end: 4;
   text-align: center;
@@ -273,16 +264,13 @@
   grid-row-start: 2;
   grid-row-end: span 2;
   grid-column-start: 1;
-  grid-column-end: 3;
+  grid-column-end: 5;
   text-align: center;
 }
 
-.result-info-button {
-  position: absolute;
-  top: 50%;
-  left: 10%;
-  margin-right: -50%;
-  transform: translate(-50%, -50%);
+.result-1 {
+  text-align: left;
+  list-style-type: circle;
 }
 
 .footer {
