@@ -18,6 +18,7 @@ function AdvSearch() {
   return (
     <div>
       <Button
+        className="btn"
         variant="primary"
         size="sm"
         onClick={() => setOpen(!open)}
@@ -29,34 +30,83 @@ function AdvSearch() {
       <Collapse in={open}>
         <div className="">
           <Container fluid="sm">
-            <FormLabel>Category:</FormLabel>
-            <Row>
-              <Col>
-                <Form.Check type="checkbox" label="Environment" />
-              </Col>
-              <Col>
-                <Form.Check type="checkbox" label="Food Bank" />
-              </Col>
-            </Row>
-            <Row>
-              <Col>
-                <Form.Check type="checkbox" label="Homeless" />
-              </Col>
-              <Col>
-                <Form.Check type="checkbox" label="Health" />
-              </Col>
-            </Row>
             <Form>
-              <FormLabel>Time:</FormLabel>
-              <Form.Control
-                className="timeBox"
-                size="sm"
-                placeholder="eg. 5:30pm"
-                type="time"
-              ></Form.Control>
-              <Form.Text id="passwordHelpBlock" muted>
-                For example 3:00 PM
-              </Form.Text>
+              <Form.Group>
+                <FormLabel>General Categories:</FormLabel>
+                <Row>
+                  <Col>
+                    <Form.Check type="checkbox" label="Agricuture" />
+                  </Col>
+                  <Col>
+                    <Form.Check type="checkbox" label="Children and Youth" />
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col>
+                    <Form.Check type="checkbox" label="Comunity Development" />
+                  </Col>
+                  <Col>
+                    <Form.Check type="checkbox" label="Education" />
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col>
+                    <Form.Check type="checkbox" label="Environment" />
+                  </Col>
+                  <Col>
+                    <Form.Check type="checkbox" label="Health" />
+                  </Col>
+                </Row>
+
+                <Row>
+                  <Col>
+                    <Form.Check type="checkbox" label="Wildlife Protection" />
+                  </Col>
+                  <Col>
+                    <Form.Check type="checkbox" label="Women's Empowerment" />
+                  </Col>
+                </Row>
+              </Form.Group>
+
+              <Form.Group>
+                <FormLabel>CSUCI:</FormLabel>
+                <Row>
+                  <Col>
+                    <Form.Check type="checkbox" label="Student Life" />
+                  </Col>
+                  <Col>
+                    <Form.Check type="checkbox" label="Arts" />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <Form.Check type="checkbox" label="Mental Health" />
+                  </Col>
+                  <Col>
+                    <Form.Check type="checkbox" label="Personal Welfare" />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
+                    <Form.Check type="checkbox" label="Education" />
+                  </Col>
+                </Row>
+              </Form.Group>
+
+              <Form.Group>
+                <FormLabel>Time:</FormLabel>
+                <Form.Control
+                  className="timeBox"
+                  size="sm"
+                  placeholder="eg. 5:30pm"
+                  type="time"
+                ></Form.Control>
+                <FormText id="passwordHelpBlock" muted>
+                  E.g. 3:00 PM
+                </FormText>
+              </Form.Group>
             </Form>
           </Container>
         </div>

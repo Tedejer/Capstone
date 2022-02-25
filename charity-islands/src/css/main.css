@@ -296,4 +296,9 @@
   width: 150px;
 }
 
+.btn:focus {
+  outline: none;
+  box-shadow: none;
+}
+
 /*# sourceMappingURL=main.css.map */
