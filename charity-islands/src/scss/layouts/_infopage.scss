@@ -33,7 +33,7 @@
 }
 
 .charity-news {
-    grid-row-start: 3;
+    grid-row-start: 2;
     grid-row-end: 4;
     grid-column-start: 3;
     grid-column-end: 4;
@@ -41,14 +41,14 @@
     overflow: auto;
 }
 
-.also-viewed {
-    grid-row-start: 2;
-    grid-row-end: 3;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    text-align: center;
-    overflow: auto;
-}
+// .also-viewed {
+//     grid-row-start: 2;
+//     grid-row-end: 3;
+//     grid-column-start: 3;
+//     grid-column-end: 4;
+//     text-align: center;
+//     overflow: auto;
+// }
 
 .charity-reviews {
     text-align: center;

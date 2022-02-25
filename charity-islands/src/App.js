@@ -15,13 +15,14 @@ import AboutPage from "./pages/AboutPage";
 import Profile from "./pages/ProfileSettings";
 import DebugPage from "./pages/DebugPage";
 import InfoPage from "./pages/InfoPage";
+import ResultsPage from "./pages/ResultsPage";
 
 // Styling
 import "./css/main.css";
 
 function App() {
   return (
-    <div>
+    <div >
       <NavbarV1 />
       <Routes>
         <Route path="/" element={<HomePage />} />
@@ -31,7 +32,8 @@ function App() {
         <Route path="/Profile" element={<Profile />} />
         <Route path="/AboutPage" element={<AboutPage />} />
         <Route path="/Debug" element={<DebugPage />} />
-        <Route path="/InfoPage" element={<InfoPage />} />
+        <Route path="/InfoPage/:charityname" element={<InfoPage />} />
+        <Route path="/ResultsPage/:searchedelem" element={<ResultsPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
       <Footer />

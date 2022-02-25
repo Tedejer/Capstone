@@ -1,0 +1,38 @@
+.results-body {
+    overflow: auto;
+}
+
+.results-container {
+    width: 100vw;
+    height: 88vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.results-container div {
+    padding: 10px;
+    border: 1px solid #294c60;
+}
+
+.searched-element {
+    grid-column-start: 1;
+    grid-column-end: span 4;
+    text-align: center;
+}
+
+.searched-results {
+    grid-row-start: 2;
+    grid-row-end: span 2;
+    grid-column-start: 1;
+    grid-column-end: 5;
+    text-align: center;
+}
+
+.result-1 {
+    text-align: left;
+    list-style-type: circle;
+}

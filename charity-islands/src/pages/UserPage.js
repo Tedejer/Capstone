@@ -17,7 +17,7 @@ function UserPage() {
         </div>
       </div>
 
-      <div className="">
+      {/* <div className="table-body">
         <table class="history_table">
           <tr>
             <th>Group: </th>
@@ -27,7 +27,7 @@ function UserPage() {
             <th>Hours worked: </th>
           </tr>
         </table>
-      </div>
+      </div> */}
     </div>
   );
 }
