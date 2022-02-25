@@ -16,11 +16,13 @@ function AdvSearch() {
   return (
     <div>
       <Button
+        variant="primary"
+        size="sm"
         onClick={() => setOpen(!open)}
         aria-controls="example-collapse-text"
         aria-expanded={open}
       >
-        advance
+        Advance
       </Button>
       <Collapse in={open}>
         <div className="">
