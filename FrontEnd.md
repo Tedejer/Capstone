@@ -6,19 +6,24 @@
 
 ![Progress](https://progress-bar.dev/25/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
+- Priority: search, results , info
+- Secondary: Login, Profile, Dashboard
+
 ## TODO:
 
 - General
 - [] implementing a scroll feature for all pages
-- [] implement react
+- [X] implement react
 
 - Login
   - [x] Layout
   - [x] Buttons
+  - Advance Module
+    - [] Layout
   - [] Accessability
 - Search
-  - [] Layout
-  - [] Buttons
+  - [X] Layout
+  - [X] Buttons
   - [] Accessability
 - Dashboard
   - [] Layout
@@ -32,10 +37,6 @@
   - [] Buttons
   - [] Accessability
   - [] scroll feature
-- About
-  - [] Layout
-  - [] Buttons
-  - [] Accessability
 
 ## Concept
 
@@ -43,8 +44,16 @@
 
 ![Landing Page](./misc/landing_page.png)
 
+![Chairty Info Page](./misc/Search_Page.PNG)
+
 ## Current State
 
-As of Feb 15, 2022
+As of Feb 26, 2022
 
-![Chairty Info Page](./misc/Search_Page.PNG)
+![hompage](https://user-images.githubusercontent.com/35849655/155729335-00283833-dbb3-4ca0-893a-5186119b6b58.gif)
+
+## Misc
+
+[Web Accessability](https://www.w3.org/WAI/standards-guidelines/wcag/)
+
+
