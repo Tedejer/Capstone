@@ -1,10 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
+import { Form, FormGroup, FormLabel, Button } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 import logo from "../assets/name_flat_color_style.png";
 
 // Components
 import AdvSearch from "../components/AdvSearch.js";
 
 function HomePage() {
+  let navigate = useNavigate();
+  let result = "/ResultsPage/";
+  const [name, setName] = useState("");
+  
   return (
     <div class="home-body">
       <div className="container-home">
@@ -13,10 +19,18 @@ function HomePage() {
             {/* <span class="Home-Page-Title">Charity Islands</span> */}
           </div>
           <div class="Search-Bar">
-            <form class="d-flex">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-              <button class="btn btn-outline-primary search-button" type="submit">Search</button>
-            </form>
+            
+            <Form className="search-result">
+              <FormGroup className="mb-3" controlId="formBasicSearchResult">
+                <Form.Control type="search" placeholder="Search" value={name} onChange={(e) => setName(e.target.value)}/>
+              </FormGroup>
+              <div class="mt-5 text-center search-button">
+                <Button onClick={() => {
+                  result = result + name;
+                  navigate(result);
+                }}>Search</Button>
+              </div>
+            </Form>
           </div>
           <div class="AdvSearch-button">
             <AdvSearch/>

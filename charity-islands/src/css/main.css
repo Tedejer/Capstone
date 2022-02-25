@@ -121,10 +121,15 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
+  float: left;
 }
 
-.btn btn-outline-primary {
-  background-color: #294c60;
+.search-button {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  float: right;
 }
 
 .AdvSearch-button {
