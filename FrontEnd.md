@@ -13,7 +13,7 @@
 
 - General
 - [] implementing a scroll feature for all pages
-- [X] implement react
+- [x] implement react
 
 - Login
   - [x] Layout
@@ -22,8 +22,8 @@
     - [] Layout
   - [] Accessability
 - Search
-  - [X] Layout
-  - [X] Buttons
+  - [x] Layout
+  - [x] Buttons
   - [] Accessability
 - Dashboard
   - [] Layout
@@ -52,8 +52,8 @@ As of Feb 26, 2022
 
 ![hompage](https://user-images.githubusercontent.com/35849655/155729335-00283833-dbb3-4ca0-893a-5186119b6b58.gif)
 
-## Misc
+## Running the Front end
 
-[Web Accessability](https://www.w3.org/WAI/standards-guidelines/wcag/)
+To view the front-end and its changes
 
-
+-To view the front end `cd` into 'charity-islands directory then run `npm start`
