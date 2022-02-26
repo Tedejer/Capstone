@@ -1,44 +1,48 @@
 .info-body {
-    overflow: auto;
+  overflow: auto;
 }
 
 .container {
-    width: 100vw;
-    height: 100vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 50px 1fr 1fr 100px 50px;
-    gap: 10px;
-    padding: 10px;
-    box-sizing: border-box;
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 50px 1fr 1fr 100px 100px;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .container div {
-    padding: 10px;
-    border: 1px solid #294c60;
+  padding: 5px;
+  border: 1px solid #294c60; /* set to 'none' to get rid of the border*/
 }
 
 .info-header {
-    grid-column-start: 1;
-    grid-column-end: 4;
-    text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  text-align: center;
 }
 
 .charity-desc {
-    grid-row-start: 2;
-    grid-row-end: span 2;
-    grid-column-start: 1;
-    grid-column-end: 3;
-    text-align: center;
+  grid-row-start: 2;
+  grid-row-end: span 2;
+  grid-column-start: 1;
+  grid-column-end: 3;
+  text-align: center;
 }
 
-.charity-news {
-    grid-row-start: 2;
-    grid-row-end: 4;
-    grid-column-start: 3;
-    grid-column-end: 4;
-    text-align: center;
-    overflow: auto;
+.desc-content {
+  text-align: left;
+  border: none;
+}
+
+.charity-relevant {
+  grid-row-start: 2;
+  grid-row-end: 4;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  text-align: center;
 }
 
 // .also-viewed {
@@ -51,10 +55,10 @@
 // }
 
 .charity-reviews {
-    text-align: center;
-    overflow: auto;
-    grid-row-start: 4;
-    grid-row-end: span 4;
-    grid-column-start: 1;
-    grid-column-end: 4;
+  text-align: center;
+  overflow: auto;
+  grid-row-start: 4;
+  grid-row-end: span 3;
+  grid-column-start: 1;
+  grid-column-end: 4;
 }
