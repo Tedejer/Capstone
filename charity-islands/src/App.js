@@ -26,11 +26,13 @@ function App() {
       <NavbarV1 />
       <Routes>
         <Route path="/" element={<HomePage />} />
+        <Route path="/AboutPage" element={<AboutPage />} />
+
+        {/* pages not in navbar */}
         <Route path="/LoginPage" element={<LoginPage />} />
         <Route path="/UserPage/:username" element={<UserPage />} />
         <Route path="/Register" element={<Register />} />
         <Route path="/Profile" element={<Profile />} />
-        <Route path="/AboutPage" element={<AboutPage />} />
         <Route path="/Debug" element={<DebugPage />} />
         <Route path="/InfoPage/:charityname" element={<InfoPage />} />
         <Route path="/ResultsPage/:searchedelem" element={<ResultsPage />} />

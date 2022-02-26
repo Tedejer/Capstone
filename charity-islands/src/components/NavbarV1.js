@@ -14,21 +14,8 @@ function NavbarV1() {
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ms-auto">
-          <Nav.Link as={Link} to="/LoginPage">
-            Login
-          </Nav.Link>
           <Nav.Link as={Link} to="/AboutPage">
             About
-          </Nav.Link>
-          <Nav.Link as={Link} to="/Profile">
-            Profile
-          </Nav.Link>
-          {/* Temp Buttons */}
-          <Nav.Link as={Link} to="/InfoPage">
-            Charity
-          </Nav.Link>
-          <Nav.Link as={Link} to="/Debug">
-            Debug
           </Nav.Link>
         </Nav>
       </Navbar.Collapse>
