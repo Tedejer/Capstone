@@ -2,7 +2,7 @@ import React from "react";
 
 function AboutPage() {
   return (
-    <div>
+    <div class="body">
       <h1 class="About-Header">AboutPage</h1>
       <section class="About-container">
         <div class="Question-1">

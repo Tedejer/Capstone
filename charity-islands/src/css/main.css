@@ -1,7 +1,12 @@
 .login_pos {
   padding-top: 10%;
+  height: 90vh;
   width: 500px;
   margin: 0 auto;
+}
+
+.body {
+  height: 90vh;
 }
 
 .About-Header {
@@ -23,6 +28,10 @@
   margin: auto;
   width: 50%;
   padding: auto;
+}
+
+.register_body {
+  height: 90vh;
 }
 
 .register_positioning {
@@ -100,7 +109,7 @@
 
 .container-home {
   width: 100vw;
-  height: 88vh;
+  height: 90vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px 250px 50px 1fr;
@@ -147,6 +156,10 @@
   padding: 10px;
 }
 
+.profile-body {
+  height: 90vh;
+}
+
 .profile_positioning {
   width: 500px;
   margin: 0 auto;
@@ -188,15 +201,16 @@
   height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px 1fr 1fr 100px 50px;
+  grid-template-rows: 50px 1fr 1fr 100px 100px;
   gap: 10px;
   padding: 10px;
   box-sizing: border-box;
 }
 
 .container div {
-  padding: 10px;
+  padding: 5px;
   border: 1px solid #294c60;
+  /* set to 'none' to get rid of the border*/
 }
 
 .info-header {
@@ -213,20 +227,24 @@
   text-align: center;
 }
 
-.charity-news {
+.desc-content {
+  text-align: left;
+  border: none;
+}
+
+.charity-relevant {
   grid-row-start: 2;
   grid-row-end: 4;
   grid-column-start: 3;
   grid-column-end: 4;
   text-align: center;
-  overflow: auto;
 }
 
 .charity-reviews {
   text-align: center;
   overflow: auto;
   grid-row-start: 4;
-  grid-row-end: span 4;
+  grid-row-end: span 3;
   grid-column-start: 1;
   grid-column-end: 4;
 }
@@ -271,17 +289,9 @@
 }
 
 .footer {
+  grid-column-start: 1;
+  grid-column-end: 4;
   text-align: center;
-  padding: 10;
-  background-color: black;
-  opacity: 0.8;
-  color: white;
-  position: fixed;
-  height: 25px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
 }
 
 .color-nav {
