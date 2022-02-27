@@ -8,6 +8,7 @@ import logo from "../assets/name_flat_color.png";
 import AdvSearch from "../components/AdvSearch.js";
 
 function HomePage() {
+  let navigate = useNavigate();
   let searchElem = "/ResultsPage/";
   const [elem, setElem] = useState("");
 
