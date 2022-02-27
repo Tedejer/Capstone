@@ -295,12 +295,12 @@
   grid-column-end: 5;
   text-align: left;
   text-decoration: underline;
+  text-decoration-color: #0000EE;
 }
 
-.result-1 {
-  list-style-type: circle;
-  padding: 2px;
-  text-decoration: underline;
+.result-link {
+  color: #0000EE;
+  padding: 10px;
 }
 
 .footer {

@@ -9,14 +9,13 @@ function ResultsPage() {
     <div class="results-body">
       <div class="results-container">
         <div class="searched-element">{searchedelem}</div>
-        <div class="searched-results">
-          Searched Results
-          <ul class="result-1">Results for '{searchedelem}'</ul>
-            <li onClick={() => {
+        <div class="searched-results">Results for {searchedelem}
+          <h5 class="result-link"onClick={() => {
             resultElem = resultElem + searchedelem;
             navigate(resultElem);
-          }}>{searchedelem} 1</li>
+          }}> - link to {searchedelem}'s info page</h5>
         </div>
+        
       </div>
     </div>
   );
