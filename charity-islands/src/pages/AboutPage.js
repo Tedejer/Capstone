@@ -1,43 +1,52 @@
 import React from "react";
+import { Container, Row, Col } from "react-bootstrap";
 
 function AboutPage() {
   return (
-    <div class="body">
-      <h1 class="About-Header">AboutPage</h1>
-      <section class="About-container">
-        <div class="Question-1">
-          <h1 class="About-Page">What is Charity Islands?</h1>
+    <div>
+      <Container fluid="md">
+        <Row className="justify-content-center">
+          <Col className="about-pad" md="2">
+            <h1>About</h1>
+          </Col>
+        </Row>
 
-          <div class="About-Body">
-            <h3>
+        <Row className="about-pad">
+          <Col>
+            <h4>What is Charity Islands?</h4>
+          </Col>
+          <Col md="6">
+            <p>
               Charity Islands is a site that aims to help a person easily find
               and determine what charity foundation they would like to donate to
               or what form of community service they would like to participate
               in.
-            </h3>
-          </div>
-        </div>
+            </p>
+          </Col>
+        </Row>
 
-        <div class="Question-2">
-          <h1 class="About-Page">Can Charity Islands be used nationwide?</h1>
+        <Row className="about-pad">
+          <Col>
+            <h4>Can Charity Islands be used nationwide?</h4>
+          </Col>
+          <Col md="6">
+            <p>No, Charity Islands is based in Ventura County only.</p>
+          </Col>
+        </Row>
 
-          <div class="About-Body">
-            <h3>No, Charity Islands is based in Ventura County only.</h3>
-          </div>
-        </div>
-
-        <div class="Question-3">
-          <h1 class="About-Page">How was Charity Islands created?</h1>
-
-          <div class="About-Body">
-            <h3>
+        <Row className="about-pad">
+          <Col>
+            <h4>How was Charity Islands created?</h4>
+          </Col>
+          <Col md="6">
+            <p>
               Charity Islands came from the idea that people can be selfish. The
               site would help those people feel less self-centered by giving
               them opportunities of good deeds.
-            </h3>
-          </div>
-        </div>
-      </section>
+            </p>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
