@@ -22,7 +22,7 @@ import "./css/main.css";
 
 function App() {
   return (
-    <div >
+    <div>
       <NavbarV1 />
       <Routes>
         <Route path="/" element={<HomePage />} />

@@ -1,13 +1,14 @@
 .footer {
+  // text-align: center;
+  // position: absolute;
+  // opacity: 0.8;
+  // height: 25px;
+  // bottom: 0px;
+  // left: 0px;
+  // right: 0px;
+  // margin-bottom: 0px;
+  grid-column-start: 1;
+  grid-column-end: 4;
   text-align: center;
-  padding: 10;
-  background-color: black;
-  opacity:0.8;
-  color: white;
-  position: fixed;
-  height: 25px;
-  bottom: 0px;
-  left: 0px;
-  right: 0px;
-  margin-bottom: 0px;
+  bottom: 0;
 }
