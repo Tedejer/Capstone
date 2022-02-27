@@ -30,7 +30,7 @@ function InfoPage() {
 
         <div class="charity-reviews">
           Reviews
-          <LoremIpsum p={1} />
+          <LoremIpsum p={10} />
         </div>
 
         {/* <div class="metric-display">Metric Display</div> */}
