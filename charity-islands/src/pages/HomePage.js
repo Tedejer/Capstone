@@ -1,8 +1,7 @@
 import React, { useState } from "react";
-import { Form, FormGroup, FormLabel, Button, FormControl } from "react-bootstrap";
 import { useNavigate } from "react-router-dom";
 import logo from "../assets/name_flat_color.png";
-
+import { Button, FormControl } from "react-bootstrap";
 
 // Components
 import AdvSearch from "../components/AdvSearch.js";
