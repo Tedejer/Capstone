@@ -3,7 +3,7 @@
 }
 
 .results-container {
-    width: 100vw;
+    width: 99vw;
     height: 88vh;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -29,10 +29,14 @@
     grid-row-end: span 2;
     grid-column-start: 1;
     grid-column-end: 5;
-    text-align: center;
+    text-align: left;
+    text-decoration: underline;
+    
 }
 
 .result-1 {
-    text-align: left;
     list-style-type: circle;
+    padding: 2px;
+    text-decoration: underline;
+    
 }

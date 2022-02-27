@@ -135,7 +135,6 @@
   grid-column-end: 3;
   grid-row-start: 3;
   grid-row-end: 4;
-  float: left;
 }
 
 .search-button {
@@ -143,7 +142,6 @@
   grid-column-end: 3;
   grid-row-start: 4;
   grid-row-end: 5;
-
 }
 
 .AdvSearch-button {
@@ -269,7 +267,7 @@
 }
 
 .results-container {
-  width: 100vw;
+  width: 99vw;
   height: 88vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -295,12 +293,14 @@
   grid-row-end: span 2;
   grid-column-start: 1;
   grid-column-end: 5;
-  text-align: center;
+  text-align: left;
+  text-decoration: underline;
 }
 
 .result-1 {
-  text-align: left;
   list-style-type: circle;
+  padding: 2px;
+  text-decoration: underline;
 }
 
 .footer {
