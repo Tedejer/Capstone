@@ -11,9 +11,10 @@ A website that people in the local area of Ventura County can use to become a mo
 ### Roadmap
 
 - Feubruary
-  - Front End Version 1 February 1st - February 14th
-  - Front End Version 2 February 15th - February 19th
-  - Back End Version 1 February 20th - February 28th
+  - ~~Front End Version 1 February 1st - February 14th~~
+  - ~~Front End Version 2 February 15th - February 19th~~
+  - ~~Back End Version 1 February 20th - February 28th~~
+  - Finish and deploy a workable front-end by March 5
 - March
   - Back End Version 2 March 1st - March 14th
   - Back End Version 3 March 15th - March 22cnd
