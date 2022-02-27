@@ -3,11 +3,11 @@
   height: 90vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 160px 160px 50px 1fr;
+  grid-template-rows: 100px 250px 50px 1fr;
   box-sizing: border-box;
 }
 
-.Logo {
+.Logo-Container {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 2;
@@ -16,21 +16,23 @@
   align-items: center;
 }
 
+.Logo {
+  width: 827.45px;
+  height: 296px;
+}
+
 .Search-Bar {
   grid-column-start: 2;
   grid-column-end: 3;
-  grid-row-start: 3;
-  grid-row-end: 4;
-}
-
-.btn btn-outline-primary {
-  background-color: #294c60;
+  grid-row-start: 4;
+  grid-row-end: 5;
 }
 
 .AdvSearch-button {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: span 4;
-  top: 0px;
+  // grid-column-start: 2;
+  // grid-column-end: 3;
+  // grid-row-start: 4;
+  // grid-row-end: span 4;
+  // top: 0px;
+  padding-top: 2%;
 }
