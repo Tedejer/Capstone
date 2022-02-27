@@ -24,12 +24,12 @@ function HomePage() {
               type="search"
               placeholder="Search"
               aria-label="Search"
-              // value={searchElem}
               onChange={(e) => setElem(e.target.value)}
             />
             <Button
               variant="outline-success"
               type="submit"
+              disabled={!elem}
               onClick={() => {
                 searchElem = searchElem + elem;
                 navigate(searchElem);
