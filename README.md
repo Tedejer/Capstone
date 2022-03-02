@@ -16,6 +16,7 @@ A website that people in the local area of Ventura County can use to become a mo
   - ~~Back End Version 1 February 20th - February 28th~~
   - Finish and deploy a workable front-end by March 5
 - March
+  - Gain feedback and plan out features on Front-End 
   - Back End Version 2 March 1st - March 14th
   - Back End Version 3 March 15th - March 22cnd
   - API version 1 March 23rd - March 31st
@@ -29,6 +30,10 @@ A website that people in the local area of Ventura County can use to become a mo
 Further information can be found here:
 
 [Chairty Islands](https://tedejer.github.io/Capstone/)
+
+The site can be seen deployed here:
+
+[WebApp](https://tedejer.github.io/charity-islands/)
 
 ## Example Usage
 
