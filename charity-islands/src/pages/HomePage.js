@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
+import { Button, Container, Row, Col, Image } from "react-bootstrap";
+
+// Assets
 import logo from "../assets/name_flat_color.png";
-import { Button, FormControl } from "react-bootstrap";
 
 // Components
 import AdvSearch from "../components/AdvSearch.js";
@@ -12,37 +14,45 @@ function HomePage() {
   const [elem, setElem] = useState("");
 
   return (
-    <div class="home-body">
-      <div className="container-home">
-        <div className="Logo-Container">
-          <img className="Logo" src={logo} alt="Charity Islands" />
-        </div>
-        <div class="Search-Bar">
-          <form class="d-flex">
-            <input
-              class="form-control me-2"
-              type="search"
-              placeholder="Search"
-              aria-label="Search"
-              onChange={(e) => setElem(e.target.value)}
-            />
-            <Button
-              variant="outline-success"
-              type="submit"
-              disabled={!elem}
-              onClick={() => {
-                searchElem = searchElem + elem;
-                navigate(searchElem);
-              }}
-            >
-              Search
-            </Button>
-          </form>
-          <div className="AdvSearch-button">
+    <div>
+      <Container fluid>
+        <Row className="justify-content-center AdvSearch-button ">
+          <Col xs={8}>
+            <Image fluid src={logo} alt="Charity Islands" />
+          </Col>
+        </Row>
+        <form>
+          <Row className="justify-content-center">
+            <Col xs={{ span: 4, offset: 3 }} md={{ span: 5, offset: 3 }}>
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+                onChange={(e) => setElem(e.target.value)}
+              />
+            </Col>
+            <Col xs={4}>
+              <Button
+                variant="outline-success"
+                type="submit"
+                disabled={!elem}
+                onClick={() => {
+                  searchElem = searchElem + elem;
+                  navigate(searchElem);
+                }}
+              >
+                Search
+              </Button>
+            </Col>
+          </Row>
+        </form>
+        <Row className="justify-content-center">
+          <Col className="AdvSearch-button" xs={5} md={6}>
             <AdvSearch />
-          </div>
-        </div>
-      </div>
+          </Col>
+        </Row>
+      </Container>
     </div>
   );
 }
