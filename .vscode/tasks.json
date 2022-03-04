@@ -1,0 +1,10 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "🎨 Start Sass",
+      "type": "shell",
+      "command": "cd charity-islands; sass --watch src/scss:src/css"
+    }
+  ]
+}
