@@ -6,30 +6,28 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ## Status
 
-![Progress](https://progress-bar.dev/28/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
+![Progress](https://progress-bar.dev/25/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
 ### Roadmap
 
 - Feubruary
-  - ~~Front End Version 1 February 1st - February 14th~~
-  - ~~Front End Version 2 February 15th - February 19th~~
-  - ~~Back End Version 1 February 20th - February 28th~~
+  - Front End Version 1 February 1st - February 14th
+  - Front End Version 2 February 15th - February 19th
+  - Back End Version 1 February 20th - February 28th
 - March
-  - Finish and deploy a workable front-end by March 5
-  - Gain feedback and plan out features on Front-End
-  - BackEnd and API 
+  - Back End Version 2 March 1st - March 14th
+  - Back End Version 3 March 15th - March 22cnd
+  - API version 1 March 23rd - March 31st
 - April
-  - Database Schema
+  - API version 2 April 1st - April 13th
+  - Database April 14th - April 27th
+  - Features April 28th - April 30th
 - May
-  - Presentation/Full Deployment
+  - Production May 1st - End of the semester
 
 Further information can be found here:
 
 [Chairty Islands](https://tedejer.github.io/Capstone/)
-
-The site can be seen deployed here:
-
-[WebApp](https://tedejer.github.io/charity-islands/)
 
 ## Example Usage
 
@@ -38,5 +36,3 @@ The site can be seen deployed here:
 ## Contributing
 
 ## Help
-
-Last Revised 3/3/22
