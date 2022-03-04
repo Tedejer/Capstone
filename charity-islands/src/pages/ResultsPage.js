@@ -15,7 +15,6 @@ function ResultsPage() {
             navigate(resultElem);
           }}> - link to {searchedelem}'s info page</h5>
         </div>
-        
       </div>
     </div>
   );
