@@ -4,6 +4,9 @@
 charity-islands/node_modules
 server/node_modules
 
+#environment workspace
+.vscode
+
 # testing
 charity-islands/coverage
 
