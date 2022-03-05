@@ -54,7 +54,7 @@ As of Feb 26, 2022
 
 As of March 5, 2022
 
-![homepage2](![FrontDemo](https://user-images.githubusercontent.com/35849655/156898890-9f2eaddd-da3e-4c8b-91f1-a5fe07eeed19.gif)
+![FrontDemo](https://user-images.githubusercontent.com/35849655/156898890-9f2eaddd-da3e-4c8b-91f1-a5fe07eeed19.gif)
 
 
 ## Running the Front end
