@@ -86,36 +86,6 @@
   padding: 10px;
 }
 
-.container-home {
-  width: 100vw;
-  height: 90vh;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 100px 250px 50px 1fr;
-  box-sizing: border-box;
-}
-
-.Logo-Container {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 2;
-  grid-row-end: 3;
-  justify-content: center;
-  align-items: center;
-}
-
-.Logo {
-  width: 827.45px;
-  height: 296px;
-}
-
-.Search-Bar {
-  grid-column-start: 2;
-  grid-column-end: 3;
-  grid-row-start: 4;
-  grid-row-end: 5;
-}
-
 .AdvSearch-button {
   padding-top: 2%;
 }
@@ -187,16 +157,11 @@
   overflow: auto;
 }
 
-.container div {
-  padding: 5px;
-  border: 1px solid #294c60;
-  /* set to 'none' to get rid of the border*/
-  overflow: hidden;
-}
-
 .info-header {
   grid-column-start: 1;
   grid-column-end: 4;
+  padding: 5px;
+  border: 1px solid #294c60;
   text-align: center;
   overflow: auto;
 }
@@ -206,13 +171,14 @@
   grid-row-end: span 2;
   grid-column-start: 1;
   grid-column-end: 3;
+  border: 1px solid #294c60;
   text-align: center;
   overflow: auto;
 }
 
 .desc-content {
   text-align: left;
-  border: none;
+  padding: 5px;
   overflow: auto;
 }
 
@@ -221,29 +187,31 @@
   grid-row-end: 4;
   grid-column-start: 3;
   grid-column-end: 4;
+  border: 1px solid #294c60;
   text-align: center;
   overflow: auto;
 }
 
 .charity-reviews {
-  text-align: center;
-  overflow: auto;
   grid-row-start: 4;
   grid-row-end: span 3;
   grid-column-start: 1;
   grid-column-end: 4;
-}
-
-.results-body {
+  border: 1px solid #294c60;
+  text-align: center;
   overflow: auto;
 }
 
+.results-search-bar {
+  padding: 20px;
+}
+
 .results-container {
-  width: 100vw;
-  height: 88vh;
+  width: 99vw;
+  height: auto;
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 50px 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
   gap: 10px;
   padding: 10px;
   box-sizing: border-box;
@@ -251,26 +219,29 @@
 
 .results-container div {
   padding: 10px;
-  border: 1px solid #294c60;
 }
 
-.searched-element {
+.search-bar {
   grid-column-start: 1;
   grid-column-end: span 4;
   text-align: center;
 }
 
 .searched-results {
-  grid-row-start: 2;
-  grid-row-end: span 2;
+  grid-row-start: 1;
+  grid-row-end: span 1;
   grid-column-start: 1;
   grid-column-end: 5;
-  text-align: center;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: black;
 }
 
-.result-1 {
-  text-align: left;
-  list-style-type: circle;
+.result-link {
+  color: #0000EE;
+  padding: 10px;
+  text-decoration: underline;
+  text-decoration-color: #0000EE;
 }
 
 .footer {
