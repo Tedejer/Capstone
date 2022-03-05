@@ -9,11 +9,21 @@ function ResultsPage() {
     <div class="results-body">
       <div class="results-container">
         <div class="searched-element">{searchedelem}</div>
-        <div class="searched-results">Results for {searchedelem}
+        <div class="searched-results">Results for "{searchedelem}"
           <h5 class="result-link"onClick={() => {
             resultElem = resultElem + searchedelem;
             navigate(resultElem);
-          }}> - link to {searchedelem}'s info page</h5>
+          }}> - temporary link to {searchedelem}'s info page</h5>
+
+          <h5>Will be replaced with corresponding Charity Groups</h5>
+            <ul>
+              <li>Charity One</li>
+                <p>- Location, Hours, Phone Number</p>
+              <li>Charity Two</li>
+                <p>- Location, Hours, Phone Number</p>
+              <li>Charity Three</li>
+              < p>- Location, Hours, Phone Number</p>
+            </ul> 
         </div>
       </div>
     </div>
