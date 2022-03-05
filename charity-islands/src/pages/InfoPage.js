@@ -11,27 +11,27 @@ function InfoPage() {
           <h1>{charityname}</h1>
         </div>
         <hr></hr>
-        <div class="desc-who">
+        <div className="desc-who">
           <h1>Who runs this charity?</h1>
           <LoremIpsum p={1} />
         </div>
-        <div class=" desc-type">
+        <div className=" desc-type">
           <h1>What type of charity is this?</h1>
           <LoremIpsum p={1} />
         </div>
-        <div class=" desc-hours">
+        <div className=" desc-hours">
           <h1>Number of hours offered</h1>
           <LoremIpsum p={1} />
         </div>
-        <div class="desc-where">
+        <div className="desc-where">
           <h1>Where does my money go?</h1>
           <LoremIpsum p={1} />
         </div>
-        <div class="desc-location">
+        <div className="desc-location">
           <h1>Location</h1>
           <LoremIpsum p={2} />
         </div>
-        <div class="charity-reviews">
+        <div className="charity-reviews">
           <h1>Reviews</h1>
           <LoremIpsum p={2} />
         </div>

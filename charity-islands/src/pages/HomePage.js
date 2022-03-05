@@ -14,7 +14,7 @@ function HomePage() {
   const [elem, setElem] = useState("");
 
   return (
-    <div>
+    <div className="home-body">
       <Container fluid>
         <Row className="justify-content-center AdvSearch-button ">
           <Col xs={8}>

@@ -1,6 +1,9 @@
+.home-body {
+  height: 90vh;
+}
 .container-home {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px 250px 50px 1fr;

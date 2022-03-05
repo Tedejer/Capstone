@@ -9,6 +9,10 @@
   padding: 5%;
 }
 
+.about-body {
+  height: 90vh;
+}
+
 .register_body {
   height: 90vh;
 }
@@ -86,9 +90,13 @@
   padding: 10px;
 }
 
+.home-body {
+  height: 90vh;
+}
+
 .container-home {
   width: 100vw;
-  height: 90vh;
+  height: 100vh;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 100px 250px 50px 1fr;
