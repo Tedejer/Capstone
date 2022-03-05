@@ -8,7 +8,7 @@ function ResultsPage() {
   let resultElem = "/InfoPage/";
   resultElem = resultElem + searchedelem;
 
-  let newSearch = "/InfoPage/";
+  let newSearch = "/ResultsPage/";
   newSearch = newSearch;
 
   const [elem, setElem] = useState("");
