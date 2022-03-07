@@ -9,6 +9,10 @@ function ResultsPage() {
   let { searchedelem } = useParams();
   const [elem, setElem] = useState("");
 
+  if (elem) {
+    searchedelem = elem;
+  }
+
   return (
     <div>
       <Container fluid>
@@ -21,11 +25,15 @@ function ResultsPage() {
                 placeholder={searchedelem}
                 aria-label="Search"
                 onChange={(e) => setElem(e.target.value)}
-                onClick={(searchedelem = elem)}
               />
             </Col>
             <Col xs={4}>
-              <Button variant="outline-success" type="button" disabled={!elem}>
+              <Button
+                variant="outline-success"
+                type="button"
+                disabled={!elem}
+                onClick={elem}
+              >
                 Search
               </Button>
             </Col>

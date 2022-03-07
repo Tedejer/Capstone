@@ -1,44 +1,43 @@
 .results-search-bar {
-    padding: 20px;
+  padding: 20px;
 }
 
 .results-container {
-    width: 99vw;
-    height: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    gap: 10px;
-    padding: 10px;
-    box-sizing: border-box;
+  width: 99vw;
+  height: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 10px;
+  padding: 10px;
+  box-sizing: border-box;
 }
 
 .results-container div {
-    padding: 10px;
-    //border: 1px solid #294c60;
+  padding: 10px;
+  //border: 1px solid #294c60;
 }
 
 .search-bar {
-    grid-column-start: 1;
-    grid-column-end: span 4;
-    text-align: center;
+  grid-column-start: 1;
+  grid-column-end: span 4;
+  text-align: center;
 }
 
 .searched-results {
-    grid-row-start: 1;
-    grid-row-end: span 1;
-    grid-column-start: 1;
-    grid-column-end: 5;
-    text-align: left;
-    text-decoration: underline;
-    text-decoration-color: black;
-    
+  grid-row-start: 1;
+  grid-row-end: span 1;
+  grid-column-start: 1;
+  grid-column-end: 5;
+  text-align: left;
+  text-decoration: underline;
+  text-decoration-color: black;
 }
 
 .result-link {
-    color: #0000EE;
-    padding: 10px;
-    text-decoration: underline;
-    text-decoration-color: #0000EE;
+  color: #0000ee;
+  padding: 10px;
+  cursor: pointer;
+  text-decoration: underline;
+  text-decoration-color: #0000ee;
 }
-
