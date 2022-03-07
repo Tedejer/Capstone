@@ -10,7 +10,7 @@ import AdvSearch from "../components/AdvSearch.js";
 
 function HomePage() {
   let navigate = useNavigate();
-  let searchElem = "/ResultsPage/";
+  let searchPath = "/ResultsPage/";
   const [elem, setElem] = useState("");
 
   return (
@@ -38,8 +38,8 @@ function HomePage() {
                 type="submit"
                 disabled={!elem}
                 onClick={() => {
-                  searchElem = searchElem + elem;
-                  navigate(searchElem);
+                  searchPath = searchPath + elem;
+                  navigate(searchPath);
                 }}
               >
                 Search
