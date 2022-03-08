@@ -303,10 +303,11 @@
 }
 
 .result-link {
-  color: #0000EE;
+  color: #0000ee;
   padding: 10px;
+  cursor: pointer;
   text-decoration: underline;
-  text-decoration-color: #0000EE;
+  text-decoration-color: #0000ee;
 }
 
 .footer {
