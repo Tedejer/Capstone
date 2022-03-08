@@ -97,12 +97,15 @@ function AdvSearch() {
 
               <Form.Group>
                 <FormLabel>Time:</FormLabel>
-                <Form.Control
-                  className="timeBox"
-                  size="sm"
-                  placeholder="eg. 5:30pm"
-                  type="time"
-                ></Form.Control>
+                <Row>
+                  <Col md={3}>
+                    <Form.Control
+                      size="sm"
+                      placeholder="eg. 5:30pm"
+                      type="time"
+                    ></Form.Control>
+                  </Col>
+                </Row>
                 <FormText id="passwordHelpBlock" muted>
                   E.g. 3:00 PM
                 </FormText>

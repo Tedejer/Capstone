@@ -9,6 +9,10 @@
   padding: 5%;
 }
 
+.about-body {
+  height: 90vh;
+}
+
 .register_body {
   height: 90vh;
 }
@@ -86,6 +90,40 @@
   padding: 10px;
 }
 
+.home-body {
+  height: 90vh;
+}
+
+.container-home {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 100px 250px 50px 1fr;
+  box-sizing: border-box;
+}
+
+.Logo-Container {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  justify-content: center;
+  align-items: center;
+}
+
+.Logo {
+  width: 827.45px;
+  height: 296px;
+}
+
+.Search-Bar {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 4;
+  grid-row-end: 5;
+}
+
 .AdvSearch-button {
   padding-top: 2%;
 }
@@ -142,64 +180,91 @@
 }
 
 .info-body {
-  overflow: auto;
+  text-align: center;
+  min-height: 100vh;
 }
 
 .container {
-  width: 100vw;
-  height: auto;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 50px 1fr 1fr 100px 100px;
-  gap: 10px;
+  padding-bottom: 2rem;
+}
+
+.desc-who {
+  border: 2px solid green;
+  padding: 15px;
+  border-radius: 15px 50px;
+  transition: transform 0.2s;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.desc-type {
+  border: 2px solid green;
   padding: 10px;
-  box-sizing: border-box;
-  overflow: auto;
+  margin-top: 20px;
+  border-radius: 15px 50px;
+  transition: transform 0.2s;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
 }
 
-.info-header {
-  grid-column-start: 1;
-  grid-column-end: 4;
-  padding: 5px;
-  border: 1px solid #294c60;
-  text-align: center;
-  overflow: auto;
+.desc-hours {
+  border: 2px solid green;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px 50px;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
 }
 
-.charity-desc {
-  grid-row-start: 2;
-  grid-row-end: span 2;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  border: 1px solid #294c60;
-  text-align: center;
-  overflow: auto;
+.desc-where {
+  border: 2px solid green;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 15px 50px;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
 }
 
-.desc-content {
-  text-align: left;
-  padding: 5px;
-  overflow: auto;
-}
-
-.charity-relevant {
-  grid-row-start: 2;
-  grid-row-end: 4;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  border: 1px solid #294c60;
-  text-align: center;
-  overflow: auto;
+.desc-location {
+  border: 2px solid green;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 15px 50px;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
 }
 
 .charity-reviews {
-  grid-row-start: 4;
-  grid-row-end: span 3;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  border: 1px solid #294c60;
-  text-align: center;
-  overflow: auto;
+  border: 2px solid green;
+  padding: 20px;
+  margin-top: 15px;
+  border-radius: 15px 50px;
+  box-shadow: 4px 3px 8px 1px #969696;
+  -webkit-box-shadow: 4px 3px 8px 1px #969696;
+}
+
+.desc-who:hover {
+  transform: scale(1.02);
+}
+
+.desc-type:hover {
+  transform: scale(1.02);
+}
+
+.desc-hours:hover {
+  transform: scale(1.02);
+}
+
+.desc-where:hover {
+  transform: scale(1.02);
+}
+
+.desc-location:hover {
+  transform: scale(1.02);
+}
+
+.charity-reviews:hover {
+  transform: scale(1.02);
 }
 
 .results-search-bar {
@@ -246,10 +311,7 @@
 }
 
 .footer {
-  grid-column-start: 1;
-  grid-column-end: 4;
   text-align: center;
-  bottom: 0;
 }
 
 .color-nav {
@@ -258,10 +320,6 @@
 
 .active {
   display: none;
-}
-
-.timeBox {
-  width: 150px;
 }
 
 .btn:focus {

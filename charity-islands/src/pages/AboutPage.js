@@ -6,7 +6,7 @@ import AboutDes from "../components/AboutDes";
 
 function AboutPage() {
   return (
-    <div>
+    <div className="about-body">
       <Container fluid="md">
         <Row className="justify-content-center">
           <Col className="about-pad" md="2">
