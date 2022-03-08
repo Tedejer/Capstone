@@ -2,9 +2,18 @@
   "version": "2.0.0",
   "tasks": [
     {
+      "label": "⚛️ Start React",
+      "type": "shell",
+      "command": "cd charity-islands; npm start"
+    },
+    {
       "label": "🎨 Start Sass",
       "type": "shell",
       "command": "cd charity-islands; sass --watch src/scss:src/css"
+    },
+    {
+      "label": "🟢 Start Working",
+      "dependsOn": ["⚛️ Start React", "🎨 Start Sass"]
     }
   ]
 }
