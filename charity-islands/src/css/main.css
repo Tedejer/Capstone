@@ -265,41 +265,6 @@
 
 .charity-reviews:hover {
   transform: scale(1.02);
-
-.charity-desc {
-  grid-row-start: 2;
-  grid-row-end: span 2;
-  grid-column-start: 1;
-  grid-column-end: 3;
-  border: 1px solid #294c60;
-  text-align: center;
-  overflow: auto;
-}
-
-.desc-content {
-  text-align: left;
-  padding: 5px;
-  overflow: auto;
-}
-
-.charity-relevant {
-  grid-row-start: 2;
-  grid-row-end: 4;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  border: 1px solid #294c60;
-  text-align: center;
-  overflow: auto;
-}
-
-.charity-reviews {
-  grid-row-start: 4;
-  grid-row-end: span 3;
-  grid-column-start: 1;
-  grid-column-end: 4;
-  border: 1px solid #294c60;
-  text-align: center;
-  overflow: auto;
 }
 
 .results-search-bar {
@@ -354,10 +319,6 @@
 
 .active {
   display: none;
-}
-
-.timeBox {
-  width: 150px;
 }
 
 .btn:focus {
