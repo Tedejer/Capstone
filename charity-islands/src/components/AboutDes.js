@@ -7,7 +7,7 @@ function AboutDes() {
       <h2 className="about-pad">Charity Categories</h2>
       <Tab.Container defaultActiveKey="#link1">
         <Row>
-          <Col sm={4}>
+          <Col sm={12} md={6}>
             <ListGroup>
               <ListGroup.Item action href="#link1">
                 Agriculture
@@ -35,7 +35,7 @@ function AboutDes() {
               </ListGroup.Item>
             </ListGroup>
           </Col>
-          <Col sm={8}>
+          <Col sm={8} md={6}>
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
                 <p>
