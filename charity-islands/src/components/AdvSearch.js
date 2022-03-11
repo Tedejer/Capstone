@@ -35,6 +35,14 @@ function AdvSearch() {
                 <FormLabel>General Categories:</FormLabel>
                 <Row>
                   <Col>
+                    <Form.Check type="checkbox" label="Profit" />
+                  </Col>
+                  <Col>
+                    <Form.Check type="checkbox" label="Non-Profit" />
+                  </Col>
+                </Row>
+                <Row>
+                  <Col>
                     <Form.Check type="checkbox" label="Agricuture" />
                   </Col>
                   <Col>
