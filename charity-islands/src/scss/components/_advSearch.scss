@@ -1,4 +1,5 @@
 .btn:focus {
-  outline: none;
-  box-shadow: none;
+  /* the !important is really the key here, it overrides everything else */
+  outline: none !important;
+  box-shadow: none !important;
 }
