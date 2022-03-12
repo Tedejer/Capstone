@@ -6,24 +6,25 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ## Status
 
-![Progress](https://progress-bar.dev/25/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
+![Progress](https://progress-bar.dev/30/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
 ### Roadmap
 
-- Feubruary
-  - Front End Version 1 February 1st - February 14th
-  - Front End Version 2 February 15th - February 19th
-  - Back End Version 1 February 20th - February 28th
+
+- February
+  - ~~Front End Version 1 February 1st - February 14th~~
+  - ~~Front End Version 2 February 15th - February 19th~~
+  - ~~Back End Version 1 February 20th - February 28th~~
 - March
-  - Back End Version 2 March 1st - March 14th
-  - Back End Version 3 March 15th - March 22cnd
-  - API version 1 March 23rd - March 31st
+  - ~~Inital FrontEnd deploy~~
+  - Get feedback on FrontEnd
+    - Revaluate GUI based on Feedback
+  - Initial BackEnd
 - April
-  - API version 2 April 1st - April 13th
-  - Database April 14th - April 27th
-  - Features April 28th - April 30th
+  - API
+  - Features
 - May
-  - Production May 1st - End of the semester
+  - Presentation App deploy/release
 
 Further information can be found here:
 
