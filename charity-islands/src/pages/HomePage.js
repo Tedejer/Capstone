@@ -23,9 +23,10 @@ function HomePage() {
         </Row>
         <form>
           <Row className="justify-content-center">
-            <Col xs={{ span: 4, offset: 3 }} md={{ span: 5, offset: 3 }}>
+            <Col xs={{ span: 6, offset: 1 }} md={{ span: 5, offset: 3 }}>
               <input
-                class="form-control me-2"
+                class="form-control"
+                size="lg"
                 type="search"
                 placeholder="Search"
                 aria-label="Search"
@@ -48,7 +49,7 @@ function HomePage() {
           </Row>
         </form>
         <Row className="justify-content-center">
-          <Col className="AdvSearch-button" xs={5} md={6}>
+          <Col className="AdvSearch-button" xs={9} md={6}>
             <AdvSearch />
           </Col>
         </Row>
