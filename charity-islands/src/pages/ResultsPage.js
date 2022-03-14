@@ -18,7 +18,7 @@ function ResultsPage() {
       <Container fluid>
         <form class="results-search-bar">
           <Row className="justify-content-center">
-            <Col xs={{ span: 4, offset: 3 }} md={{ span: 5, offset: 3 }}>
+            <Col xs={{ span: 6, offset: 1 }} md={{ span: 5, offset: 3 }}>
               <input
                 class="form-control me-2"
                 type="search"
