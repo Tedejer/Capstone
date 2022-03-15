@@ -33,7 +33,10 @@ Further information can be found here:
 
 ## Example Usage
 
+![FrontDemo](https://user-images.githubusercontent.com/35849655/158444262-adb94535-4431-47b2-9a64-2b9176e57ac4.gif)
+
 ## Links
+
 
 ## Contributing
 
