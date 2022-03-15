@@ -17,13 +17,13 @@ function HomePage() {
     <div className="home-body">
       <Container fluid>
         <Row className="justify-content-center AdvSearch-button ">
-          <Col xs={8}>
+          <Col md={8}>
             <Image fluid src={logo} alt="Charity Islands" />
           </Col>
         </Row>
         <form>
           <Row className="justify-content-center">
-            <Col xs={{ span: 6, offset: 1 }} md={{ span: 5, offset: 3 }}>
+            <Col xs={{ span: 6, offset: 2 }} md={{ span: 5, offset: 3 }}>
               <input
                 class="form-control"
                 size="lg"
@@ -49,7 +49,7 @@ function HomePage() {
           </Row>
         </form>
         <Row className="justify-content-center">
-          <Col className="AdvSearch-button" xs={9} md={6}>
+          <Col className="AdvSearch-button" xs={8} md={6}>
             <AdvSearch />
           </Col>
         </Row>
