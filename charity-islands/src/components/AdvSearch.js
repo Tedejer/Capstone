@@ -32,7 +32,9 @@ function AdvSearch() {
           <Container fluid="sm">
             <Form>
               <Form.Group>
-                <FormLabel>General Categories:</FormLabel>
+                <Row>
+                  <FormLabel column="lg">Categories:</FormLabel>
+                </Row>
                 <Row>
                   <Col>
                     <Form.Check type="checkbox" label="Profit" />
@@ -79,7 +81,9 @@ function AdvSearch() {
               </Form.Group>
 
               <Form.Group>
-                <FormLabel>CSUCI:</FormLabel>
+                <Row>
+                  <FormLabel column="lg">CSUCI:</FormLabel>
+                </Row>
                 <Row>
                   <Col>
                     <Form.Check type="checkbox" label="Student Life" />
@@ -102,9 +106,11 @@ function AdvSearch() {
                   </Col>
                 </Row>
               </Form.Group>
-
               <Form.Group>
-                <FormLabel>Time:</FormLabel>
+                <Row>
+                  <FormLabel column="lg">Time:</FormLabel>
+                </Row>
+
                 <Row>
                   <Col md={3}>
                     <Form.Control
