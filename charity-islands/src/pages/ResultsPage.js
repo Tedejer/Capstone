@@ -9,6 +9,7 @@ function ResultsPage() {
   let { searchedelem } = useParams();
   const [elem, setElem] = useState("");
 
+  // Replaces the link to new search elem
   if (elem) {
     searchedelem = elem;
   }
