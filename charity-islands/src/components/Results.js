@@ -21,7 +21,6 @@ function Results(props) {
               Test Link One
             </li>
             <p>
-              Brief Desc:
               <LoremIpsum p={1} />
             </p>
             <li
@@ -33,8 +32,7 @@ function Results(props) {
               Test Link Two
             </li>
             <p>
-              Brief Desc:
-              <LoremIpsum p={2} />
+              <LoremIpsum p={1} />
             </p>
             <li
               class="result-link font-weight-bold"
@@ -45,7 +43,6 @@ function Results(props) {
               Test Link Three
             </li>
             <p>
-              Brief Desc:
               <LoremIpsum p={1} />
             </p>
           </ul>
