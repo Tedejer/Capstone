@@ -6,5 +6,21 @@
     "money": "helps film makers get film funding",
     "location": "Oxnard, CA",
     "Rating": 5
+  },
+  {
+    "name": "Habitat for Humanity of Ventura County",
+    "type": "Community Service",
+    "hours": null,
+    "money": "homeless and housing, development, construction, and religion",
+    "location": "Oxnard, CA",
+    "Rating": 4.2
+  },
+  {
+    "name": "ACTION VC",
+    "type": "Community Service",
+    "hours": null,
+    "money": "local communities, churches and buisnesses",
+    "location": "Ventura, CA",
+    "Rating": 5
   }
 ]
