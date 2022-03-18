@@ -38,6 +38,8 @@ function App() {
         <Route path="/ResultsPage/:searchedelem" element={<ResultsPage />} />
         <Route path="*" element={<ErrorPage />} />
       </Routes>
+      {/* End Routs */}
+
       <Footer />
     </div>
   );
