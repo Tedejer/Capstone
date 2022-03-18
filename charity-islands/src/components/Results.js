@@ -45,6 +45,39 @@ function Results(props) {
             <p>
               <LoremIpsum p={1} />
             </p>
+            <li
+              class="result-link font-weight-bold"
+              onClick={() => {
+                navigate(resultPath);
+              }}
+            >
+              Test Link Four
+            </li>
+            <p>
+              <LoremIpsum p={1} />
+            </p>
+            <li
+              class="result-link font-weight-bold"
+              onClick={() => {
+                navigate(resultPath);
+              }}
+            >
+              Test Link Five
+            </li>
+            <p>
+              <LoremIpsum p={1} />
+            </p>
+            <li
+              class="result-link font-weight-bold"
+              onClick={() => {
+                navigate(resultPath);
+              }}
+            >
+              Test Link Six
+            </li>
+            <p>
+              <LoremIpsum p={1} />
+            </p>
           </ul>
         </div>
       </div>

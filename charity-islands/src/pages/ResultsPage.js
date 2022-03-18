@@ -13,7 +13,6 @@ function ResultsPage() {
   if (elem) {
     searchedelem = elem;
   }
-
   return (
     <div>
       <Container fluid>
