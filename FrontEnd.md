@@ -2,41 +2,6 @@
 
 [Home](index.md)
 
-### Status
-
-![Progress](https://progress-bar.dev/25/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
-
-- Priority: search, results , info
-- Secondary: Login, Profile, Dashboard
-
-## TODO:
-
-- General
-- [X] implementing a scroll feature for all pages
-- [x] implement react
-
-- Login
-  - [x] Layout
-  - [x] Buttons
-  - Advance Module
-    - [X] Layout
-  - [] Accessability
-- Search
-  - [x] Layout
-  - [x] Buttons
-  - [] Accessability
-- Dashboard
-  - [] Layout
-  - [] Buttons
-  - [] Accessability
-- User Pages
-  - User Register
-  - Profile
-- Info
-  - [] Layout
-  - [] Buttons
-  - [] Accessability
-  - [] scroll feature
 
 ## Concept
 
