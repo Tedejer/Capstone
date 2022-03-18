@@ -27,16 +27,13 @@ A website that people in the local area of Ventura County can use to become a mo
 - May
   - Presentation App deploy/release
 
-Further information can be found here:
-
-[Chairty Islands](https://tedejer.github.io/Capstone/)
-
 ## Example Usage
 
 ![FrontDemo](https://user-images.githubusercontent.com/35849655/158444262-adb94535-4431-47b2-9a64-2b9176e57ac4.gif)
 
 ## Links
 
+[Chairty Islands](https://tedejer.github.io/Capstone/)
 
 ## Contributing
 
