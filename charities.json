@@ -2,25 +2,28 @@
   {
     "name": "From the Heart Productions Inc",
     "type": "Community Service",
-    "hours": null,
-    "money": "helps film makers get film funding",
-    "location": "Oxnard, CA",
+    "hours": "Monday: 8AM-5PM, Tuesday: 8AM-5PM, Wednesday: 8:30AM-5PM, Thursday: 8AM-5PM, Friday: 8AM-5PM, Saturday: 8AM-5PM, Sunday: CLOSED",
+    "money": "nonprofit - helps film makers get film funding",
+    "location": "1455 Mandalay Beach Rd, Oxnard, CA 93035",
+    "phone": "(805) 984-0098",
     "Rating": 5
   },
   {
     "name": "Habitat for Humanity of Ventura County",
-    "type": "Community Service",
-    "hours": null,
-    "money": "homeless and housing, development, construction, and religion",
-    "location": "Oxnard, CA",
+    "type": "Volunteer",
+    "hours": "Monday: 9AM-5PM, Tuesday: 9AM-5PM, Wednesday: 9AM-5PM, Thursday: 9AM-5PM, Friday: 9AM-5PM, Saturday: 9AM-5PM, Sunday: 9AM-5PM",
+    "money": "nonprofit - homeless and housing, development, construction, and religion",
+    "location": "1850 Eastman Ave, Oxnard, CA 93030",
+    "phone": "(805) 485-6065",
     "Rating": 4.2
   },
   {
     "name": "ACTION VC",
-    "type": "Community Service",
-    "hours": null,
-    "money": "local communities, churches and buisnesses",
-    "location": "Ventura, CA",
+    "type": "Volunteer",
+    "hours": "Monday: 9AM-4PM, Tuesday: 9AM-4PM, Wednesday: 9AM-4PM, Thursday: 9AM-4PM, Friday: 9AM-2PM, Saturday: CLOSED, Sunday: CLOSED",
+    "money": "nonproft - local communities, churches and buisnesses",
+    "location": "4001 Mission Oaks Blvd suite s, Camarillo, CA 93012",
+    "phone": "(805) 987-0300",
     "Rating": 5
   }
 ]
