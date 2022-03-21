@@ -5,8 +5,9 @@
     "hours": "Monday: 8AM-5PM, Tuesday: 8AM-5PM, Wednesday: 8:30AM-5PM, Thursday: 8AM-5PM, Friday: 8AM-5PM, Saturday: 8AM-5PM, Sunday: CLOSED",
     "money": "nonprofit - helps film makers get film funding",
     "location": "1455 Mandalay Beach Rd, Oxnard, CA 93035",
+    "website": "https://fromtheheartproductions.com/",
     "phone": "(805) 984-0098",
-    "Rating": 5
+    "Rating": "5"
   },
   {
     "name": "Habitat for Humanity of Ventura County",
@@ -14,8 +15,9 @@
     "hours": "Monday: 9AM-5PM, Tuesday: 9AM-5PM, Wednesday: 9AM-5PM, Thursday: 9AM-5PM, Friday: 9AM-5PM, Saturday: 9AM-5PM, Sunday: 9AM-5PM",
     "money": "nonprofit - homeless and housing, development, construction, and religion",
     "location": "1850 Eastman Ave, Oxnard, CA 93030",
+    "website": "https://habitatventura.org/",
     "phone": "(805) 485-6065",
-    "Rating": 4.2
+    "Rating": "4.2"
   },
   {
     "name": "ACTION VC",
@@ -23,7 +25,28 @@
     "hours": "Monday: 9AM-4PM, Tuesday: 9AM-4PM, Wednesday: 9AM-4PM, Thursday: 9AM-4PM, Friday: 9AM-2PM, Saturday: CLOSED, Sunday: CLOSED",
     "money": "nonproft - local communities, churches and businesses",
     "location": "4001 Mission Oaks Blvd suite s, Camarillo, CA 93012",
+    "website": "https://www.actionvc.org/",
     "phone": "(805) 987-0300",
-    "Rating": 5
+    "Rating": "5"
+  },
+  {
+    "name": "Tailwagger Foundation of America",
+    "type": "Animals",
+    "hours": "NA",
+    "money": "nonprofit - sick and injured animals, rescue shelters",
+    "location": "1929 N Bronson Ave, Los Angeles, CA 90068",
+    "website": "http://thetailwaggersfoundation.org/",
+    "phone": "(323)464-5559",
+    "Rating": "5"
+  },
+  {
+    "name": "Food Share of Ventura County",
+    "type": "Foodbanks",
+    "hours": "Monday: 8AM-4PM, Tuesday: 8AM-4PM, Wednesday: 8:30AM-4PM, Thursday: 8AM-4PM, Friday: 8AM-4PM, Saturday: CLOSED, Sunday: CLOSED",
+    "money": "provide food for Ventura County residents",
+    "location": "4156 Southbank Rd, Oxnard, CA 93036",
+    "website": "https://foodshare.com/",
+    "phone": "(805)983-7100",
+    "Rating": "4.4"
   }
 ]
