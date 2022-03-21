@@ -1,17 +1,29 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Button, Container, Row, Col } from "react-bootstrap";
 
 // Components
 import Results from "../components/Results";
 
+function simulateNetworkRequest() {
+  return new Promise((resolve) => setTimeout(resolve, 5000));
+}
+
 function ResultsPage() {
+  const [isLoading, setLoading] = useState(false);
   let { searchedelem } = useParams();
   const [elem, setElem] = useState("");
 
-  if (elem) {
-    searchedelem = elem;
-  }
+  useEffect(() => {
+    if (isLoading) {
+      simulateNetworkRequest().then(() => {
+        searchedelem = elem;
+        setLoading(false);
+      });
+    }
+  }, [isLoading]);
+
+  const handleClick = () => setLoading(true);
 
   return (
     <div>
@@ -30,11 +42,11 @@ function ResultsPage() {
             <Col xs={4}>
               <Button
                 variant="outline-success"
-                type="button"
+                type="button search-btn"
                 disabled={!elem}
-                onClick={elem}
+                onClick={!isLoading ? handleClick : null}
               >
-                Search
+                {isLoading ? "Loading" : "Search"}
               </Button>
             </Col>
           </Row>
