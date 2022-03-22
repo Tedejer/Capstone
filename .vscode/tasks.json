@@ -13,7 +13,10 @@
     },
     {
       "label": "🟢 Start Working",
-      "dependsOn": ["⚛️ Start React", "🎨 Start Sass"]
+      "dependsOn": ["⚛️ Start React", "🎨 Start Sass"],
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
     }
   ]
 }
