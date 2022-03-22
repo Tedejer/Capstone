@@ -30,3 +30,4 @@ Created using the react framework
 To view the front-end and its changes
 
 - To view the front end `cd` into 'charity-islands directory then run `npm start`
+- The website will be hosted locally on port 3000
