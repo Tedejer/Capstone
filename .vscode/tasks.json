@@ -2,18 +2,27 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "⚛️ Start React",
+      "label": "⚛️ Run React Server",
       "type": "shell",
       "command": "cd charity-islands; npm start"
     },
     {
-      "label": "🎨 Start Sass",
+      "label": "🎨 Watch Sass",
       "type": "shell",
       "command": "cd charity-islands; sass --watch src/scss:src/css"
     },
     {
+      "label": "📚 Run JSON Database",
+      "type": "shell",
+      "command": "npx json-server --watch charities.json --port 8000"
+    },
+    {
       "label": "🟢 Start Working",
-      "dependsOn": ["⚛️ Start React", "🎨 Start Sass"],
+      "dependsOn": [
+        "⚛️ Run React Server",
+        "🎨 Watch Sass",
+        "📚 Run JSON Database"
+      ],
       "runOptions": {
         "runOn": "folderOpen"
       }

@@ -1,4 +1,5 @@
-[
+{
+  "charities":[
   {
     "name": "From the Heart Productions Inc",
     "type": "Community Service",
@@ -50,3 +51,4 @@
     "Rating": "4.4"
   }
 ]
+}
