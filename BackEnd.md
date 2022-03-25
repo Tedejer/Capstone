@@ -1,5 +1,7 @@
 # Back End
 
+[Home](index.md)
+
 ## Status Page
 
 Freshworks [status](https://www.freshworks.com/website-monitoring/)
@@ -50,5 +52,11 @@ app.get("*", (req, res) => {
   );
 });
 ```
+## JSON server
 
-[Home](index.md)
+[npm-json](https://www.npmjs.com/package/json-server)
+
+[github-json-server](https://github.com/typicode/json-server)
+
+JSON-server allows for the emulation for a full REST API to mock an actual back end using a database created with JSON
+
