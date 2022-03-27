@@ -4,12 +4,12 @@
     {
       "label": "⚛️ Run React Server",
       "type": "shell",
-      "command": "cd charity-islands; npm start"
+      "command": "cd ./charity-islands; npm start"
     },
     {
       "label": "🎨 Watch Sass",
       "type": "shell",
-      "command": "cd charity-islands; sass --watch src/scss:src/css"
+      "command": "cd ./charity-islands; sass --watch src/scss:src/css"
     },
     {
       "label": "📚 Run JSON Database",
