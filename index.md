@@ -48,6 +48,17 @@ A website that people in the local area of Ventura County can use to become a mo
 - Establishing a proper tech stack
 - Research necessary tools
 
+### Work Environment
+
+A developmental work environment is created for users using VScode 
+upon opening the project automated task will serve up the react and json local servers.
+
+A sass watcher script is also ran at start up to aid with scss styling.
+
+Port 3000 is being used by the React Server
+
+Port 8000 is being used by the JSON Server
+
 ## About Us
 
 Ternel E, Jeffery C, Jericho P
