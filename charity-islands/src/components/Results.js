@@ -1,5 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { LoremIpsum } from "react-lorem-ipsum";
 
 function Results(props) {
   console.log(props);
@@ -10,24 +11,43 @@ function Results(props) {
       <div class="results-container">
         <div class="searched-results">
           Results for "{props.resultWord}"
-          <h5
-            class="result-link"
-            onClick={() => {
-              navigate(resultPath);
-            }}
-          >
-            {" "}
-            - temporary link to {props.resultWord}'s info page
-          </h5>
-          {/* End Search Link */}
-          <h5>Will be replaced with corresponding Charity Groups</h5>
           <ul>
-            <li>Charity One</li>
-            <p>- Brief Desc</p>
-            <li>Charity Two</li>
-            <p>- Brief Desc</p>
-            <li>Charity Three</li>
-            <p>- Brief Desc</p>
+            <li
+              class="result-link font-weight-bold"
+              onClick={() => {
+                navigate(resultPath);
+              }}
+            >
+              Test Link One
+            </li>
+            <p>
+              Brief Desc:
+              <LoremIpsum p={1} />
+            </p>
+            <li
+              class="result-link font-weight-bold"
+              onClick={() => {
+                navigate(resultPath);
+              }}
+            >
+              Test Link Two
+            </li>
+            <p>
+              Brief Desc:
+              <LoremIpsum p={2} />
+            </p>
+            <li
+              class="result-link font-weight-bold"
+              onClick={() => {
+                navigate(resultPath);
+              }}
+            >
+              Test Link Three
+            </li>
+            <p>
+              Brief Desc:
+              <LoremIpsum p={1} />
+            </p>
           </ul>
         </div>
       </div>
