@@ -1,12 +1,17 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
-import { Button, Container, Row, Col, Image } from "react-bootstrap";
+import {
+  Button,
+  Container,
+  Row,
+  Col,
+  Image,
+  Form,
+  FormControl,
+} from "react-bootstrap";
 
 // Assets
 import logo from "../assets/name_flat_color.png";
-
-// Components
-import AdvSearch from "../components/AdvSearch.js";
 
 function HomePage() {
   let navigate = useNavigate();
@@ -21,38 +26,34 @@ function HomePage() {
             <Image fluid src={logo} alt="Charity Islands" />
           </Col>
         </Row>
-        <form>
-          <Row className="justify-content-center">
-            <Col xs={{ span: 6, offset: 2 }} md={{ span: 5, offset: 3 }}>
-              <input
-                class="form-control"
-                size="lg"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-                onChange={(e) => setElem(e.target.value)}
-              />
-            </Col>
-            <Col xs={4}>
-              <Button
-                variant="outline-success"
-                type="submit"
-                disabled={!elem}
-                onClick={() => {
-                  searchPath = searchPath + elem;
-                  navigate(searchPath);
-                }}
-              >
-                Search
-              </Button>
-            </Col>
-          </Row>
-        </form>
-        <Row className="justify-content-center">
-          <Col className="AdvSearch-button" xs={8} md={6}>
-            <AdvSearch />
-          </Col>
-        </Row>
+        <Form>
+          <Form.Group className="mb-3">
+            <Row>
+              <Col xs={{ span: 6, offset: 2 }} md={{ span: 5, offset: 3 }}>
+                <FormControl
+                  lg
+                  type="search"
+                  placeholder="Search"
+                  onChange={(e) => setElem(e.target.value)}
+                ></FormControl>
+                <Form.Text>e.g. Animal Charity, Foodbanks, Homeless</Form.Text>
+              </Col>
+              <Col xs={4}>
+                <Button
+                  variant="outline-success"
+                  type="submit"
+                  disabled={!elem}
+                  onClick={() => {
+                    searchPath = searchPath + elem;
+                    navigate(searchPath);
+                  }}
+                >
+                  Search
+                </Button>
+              </Col>
+            </Row>
+          </Form.Group>
+        </Form>
       </Container>
     </div>
   );
