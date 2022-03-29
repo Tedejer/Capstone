@@ -15,17 +15,6 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ![Progress](https://progress-bar.dev/30/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
-
-### Tech Stack
-
-![Bootstrap](https://img.icons8.com/color/48/000000/bootstrap.png)
-
-![React](https://img.icons8.com/office/40/000000/react.png)
-
-![NodeJs](https://img.icons8.com/color/48/000000/nodejs.png)
-
-![MongoDb](https://img.icons8.com/color/48/000000/mongodb.png)
-
 ### Roadmap
 
 - February
@@ -58,6 +47,40 @@ A sass watcher script is also ran at start up to aid with scss styling.
 Port 3000 is being used by the React Server
 
 Port 8000 is being used by the JSON Server
+
+```
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "⚛️ Run React Server",
+      "type": "shell",
+      "command": "cd ./charity-islands; npm start"
+    },
+    {
+      "label": "🎨 Watch Sass",
+      "type": "shell",
+      "command": "cd ./charity-islands; sass --watch src/scss:src/css"
+    },
+    {
+      "label": "📚 Run JSON Database",
+      "type": "shell",
+      "command": "npx json-server --watch charities.json --port 8000"
+    },
+    {
+      "label": "🟢 Start Working",
+      "dependsOn": [
+        "⚛️ Run React Server",
+        "🎨 Watch Sass",
+        "📚 Run JSON Database"
+      ],
+      "runOptions": {
+        "runOn": "folderOpen"
+      }
+    }
+  ]
+}
+```
 
 ## About Us
 
