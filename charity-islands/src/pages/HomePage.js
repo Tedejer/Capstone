@@ -36,9 +36,9 @@ function HomePage() {
                   placeholder="Search"
                   onChange={(e) => setElem(e.target.value)}
                 ></FormControl>
-                <Form.Text>e.g. Animal Charity, Foodbanks, Homeless</Form.Text>
+                <Form.Text>e.g. Animal Shelter, Foodbanks, Homeless</Form.Text>
               </Col>
-              <Col xs={4}>
+              <Col>
                 <Button
                   variant="outline-success"
                   type="submit"
