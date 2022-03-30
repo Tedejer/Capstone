@@ -98,6 +98,67 @@
     "website": "https://4k2konline.com/",
     "phone": "(805) 573-0752",
     "Rating": "NA"
-  }
-]
+  },
+  {
+     "name": "Laubach Literacy of Venutra County",
+     "type": "Educational",
+     "hours": null,
+     "money": "nonprofit - local communities, education",
+     "location": "1500 Palma Dr #250, Ventura, CA 93003",
+     "website": "http://www.laubachventura.org/",
+     "phone": "(805) 385-9584",
+     "Rating": "5"
+   },
+   {
+     "name": "Ventura College Foundation",
+     "type": "Educational",
+     "hours": null,
+     "money": "nonprofit - educational",
+     "location": null,
+     "website": "https://venturacollegefoundation.org/",
+     "phone": "(805) 987-0300",
+     "Rating": null
+   },
+   {
+     "name": "Ventura Land Trust",
+     "type": "Enviornmental",
+     "hours": "Monday: 8AM-5PM, Tuesday: 8AM-5PM, Wednesday: 8AM-5PM, Thursday: 8AM-5PM, Friday: 8AM-5PM, Saturday: CLOSED, Sunday: CLOSED",
+     "money": "nonprofit - enviornmental orginization",
+     "location": "3451 Foothill Rd #201, Ventura, CA 93003",
+     "website": "https://www.venturalandtrust.org/",
+     "phone": "(805) 643-8044",
+     "Rating": "5"
+   },
+   {
+     "name": "Autism Society Ventura County",
+     "type": "Health",
+     "hours": null,
+     "money": "nonprofit ",
+     "location": "80 E Hillcrest Dr STE 110, Thousand Oaks, CA 91360",
+     "website": null,
+     "phone": "(805) 496-1632",
+     "Rating": null
+    },
+    {
+     "name": "Casa Pacifica",
+     "type": "Children and Youth",
+     "hours": null,
+     "money": "nonprofit ",
+     "location": "1722 South Lewis Rd.Camarillo, CA 93012",
+     "website": "https://www.casapacifica.org/",
+     "phone": "(805) 366-4040",
+     "Rating": null
+    },
+    {
+     "name": "Ventura County Military Collaborative",
+     "type": "Veterans",
+     "hours": null,
+     "money": "nonprofit ",
+     "location": "4001 Mission Oaks Blvd suite s, Camarillo, CA 93012",
+     "website": "http://www.vcmilc.org/",
+     "phone": "(805) 987-0300",
+     "Rating": "5"
+    }
+  ]
 }
+
