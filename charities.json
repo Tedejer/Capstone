@@ -1,20 +1,11 @@
 {
   "charities":[
   {
-    "name": "From the Heart Productions Inc",
-    "type": "Community Service",
-    "hours": "Monday: 8AM-5PM, Tuesday: 8AM-5PM, Wednesday: 8:30AM-5PM, Thursday: 8AM-5PM, Friday: 8AM-5PM, Saturday: 8AM-5PM, Sunday: CLOSED",
-    "money": "nonprofit - helps film makers get film funding",
-    "location": "1455 Mandalay Beach Rd, Oxnard, CA 93035",
-    "website": "https://fromtheheartproductions.com/",
-    "phone": "(805) 984-0098",
-    "Rating": "5"
-  },
-  {
     "name": "Habitat for Humanity of Ventura County",
-    "type": "Volunteer",
+    "type": "Community Development",
     "hours": "Monday: 9AM-5PM, Tuesday: 9AM-5PM, Wednesday: 9AM-5PM, Thursday: 9AM-5PM, Friday: 9AM-5PM, Saturday: 9AM-5PM, Sunday: 9AM-5PM",
-    "money": "nonprofit - homeless and housing, development, construction, and religion",
+    "mission": "Seeking to put God's love into action, Habitat for Humanity brings people together to build homes, communities, hope",
+    "profit": "nonprofit",
     "location": "1850 Eastman Ave, Oxnard, CA 93030",
     "website": "https://habitatventura.org/",
     "phone": "(805) 485-6065",
@@ -22,33 +13,91 @@
   },
   {
     "name": "ACTION VC",
-    "type": "Volunteer",
+    "type": "Community Development",
     "hours": "Monday: 9AM-4PM, Tuesday: 9AM-4PM, Wednesday: 9AM-4PM, Thursday: 9AM-4PM, Friday: 9AM-2PM, Saturday: CLOSED, Sunday: CLOSED",
-    "money": "nonproft - local communities, churches and businesses",
+    "mission": "Provide low-income seniors, under-resourced families, and persons with disabilities access to tangible service projects that improve their home safety and quality of life",
+    "profit": "nonprofit",
     "location": "4001 Mission Oaks Blvd suite s, Camarillo, CA 93012",
     "website": "https://www.actionvc.org/",
     "phone": "(805) 987-0300",
     "Rating": "5"
   },
   {
-    "name": "Tailwagger Foundation of America",
-    "type": "Animals",
-    "hours": "NA",
-    "money": "nonprofit - sick and injured animals, rescue shelters",
-    "location": "1929 N Bronson Ave, Los Angeles, CA 90068",
-    "website": "http://thetailwaggersfoundation.org/",
-    "phone": "(323)464-5559",
+    "name": "Humane Society of Ventura County",
+    "type": "Animal Service",
+    "hours": "Monday: 10AM-5PM, Tuesday: 10AM-5PM, Wednesday: 10AM-5PM, Thursday: 10AM-5PM, Friday: 10AM-5PM, Saturday: 10AM-5PM, Sunday: CLOSED",
+    "mission": "The Humane Society of Ventura County is dedicated to promoting the health, safety, welfare, compassionate care and protection of all animals through education and community outreach programs.",
+    "profit": "nonprofit",
+    "location": "402 Bryant St, Ojai, CA 93023",
+    "website": "https://www.hsvc.org/",
+    "phone": "(805) 646-6505",
     "Rating": "5"
   },
   {
+    "name": "Ventura County Animal Service",
+    "type": "Animal Service",
+    "hours": "Monday: CLOSED, Tuesday: 9AM-6PM, Wednesday: 9AM-6PM, Thursday: 9AM-6PM, Friday: 9AM-6PM, Saturday: 9AM-6PM, Sunday: 9AM-6PM",
+    "mission": "Improve the lives of animals in our care, be timely and compassionate in our responses, educate the public through community outreach, and provide for the health and safety of the citizens and animals of Ventura County.",
+    "profit": "nonprofit",
+    "location": "600 Aviation Dr, Camarillo, CA 93010. Camarillo Aiport",
+    "website": "https://www.vcas.us/",
+    "phone": "(805) 388-4341",
+    "Rating": "3.9"
+  },
+  {
     "name": "Food Share of Ventura County",
-    "type": "Foodbanks",
-    "hours": "Monday: 8AM-4PM, Tuesday: 8AM-4PM, Wednesday: 8:30AM-4PM, Thursday: 8AM-4PM, Friday: 8AM-4PM, Saturday: CLOSED, Sunday: CLOSED",
-    "money": "provide food for Ventura County residents",
+    "type": "Food Share",
+    "hours": "Monday: 8AM-4PM, Tuesday: 8AM-4PM, Wednesday: 8AM-4PM, Thursday: 8AM-4PM, Friday: 8AM-4PM, Saturday: CLOSED, Sunday: CLOSED",
+    "mission": "Food Share is dedicated to leading the fight against hunger in Ventura County",
+    "profit": "nonprofit",
     "location": "4156 Southbank Rd, Oxnard, CA 93036",
     "website": "https://foodshare.com/",
-    "phone": "(805)983-7100",
+    "phone": "(805) 983-7100",
     "Rating": "4.4"
+  },
+  {
+    "name": "Project Understanding",
+    "type": "Food Share",
+    "hours": "Monday: 9AM-12PM, Tuesday: CLOSED, Wednesday: 9AM-12PM, Thursday: CLOSED, Friday: 9AM-12PM, Saturday: CLOSED, Sunday: CLOSED",
+    "mission": "Provides hope by developing and directing resources for the purpose of transforming lives and community through justice, mercy, and compassion",
+    "profit": "nonprofit",
+    "location": "2734 Johnson Dr suite e, Ventura, CA 93003",
+    "website": "https://www.projectunderstanding.org/",
+    "phone": "(805) 652-1326",
+    "Rating": "4.5"
+  },
+  {
+    "name": "Farm Bureau of Ventura County",
+    "type": "Agriculture",
+    "hours": "Monday: 9AM-5PM, Tuesday: 9AM-5PM, Wednesday: 9AM-5PM, Thursday: 9AM-5PM, Friday: 9AM-5PM, Saturday: CLOSED, Sunday: CLOSED",
+    "mission": "For more than a century, Farm Bureau of Ventura County has been dedicated to ensuring that farmers and ranchers survive and thrive.",
+    "profit": "NA",
+    "location": "5156 McGrath St, Ventura, CA 93003",
+    "website": "https://www.farmbureauvc.com/",
+    "phone": "(805) 289-0155",
+    "Rating": "NA"
+  },
+  {
+    "name": "Make A Wish Tri-Counties",
+    "type": "Children and Youth",
+    "hours": "Monday: 24 Hours, Tuesday: 24 Hours, Wednesday: 24 Hours, Thursday: 24 Hours, Friday: 24 Hours, Saturday: 24 Hours, Sunday: 24 Hours",
+    "mission": "This one belief guides us in everything we do at Make-A-Wish. It inspires us to grant life-changing wishes for children going through so much. It compels us to be creative in exceeding the expectations of every wish kid. It drives us to make our donated resources go as far as possible. Most of all, it's the founding principle of our vision to grant the wish of every eligible child.",
+    "profit": "nonprofit",
+    "location": "4001 Mission Oaks Blvd f, Camarillo, CA 93012. Ventura County Community Foundation",
+    "website": "https://wish.org/tricounties",
+    "phone": "(805) 676-9474",
+    "Rating": "NA"
+  },
+  {
+    "name": "4 Kids 2 Kids",
+    "type": "Children and Youth",
+    "hours": "Monday: 8AM-5PM, Tuesday: 8AM-5PM, Wednesday: 8AM-5:30PM, Thursday: 8AM-5PM, Friday: 8AM-5PM, Saturday: CLOSED, Sunday: CLOSED",
+    "mission": "4 Kids 2 Kids provides a safe home for child sex trafficked survivors. Our home allows the children to heal, keep hope alive and work through their past traumas of abuse, abandonment, and neglect.",
+    "profit": "nonprofit",
+    "location": "1560 E Main St, Ventura, CA 93001",
+    "website": "https://4k2konline.com/",
+    "phone": "(805) 573-0752",
+    "Rating": "NA"
   }
 ]
 }
