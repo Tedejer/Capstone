@@ -37,9 +37,7 @@ function HomePage() {
                   onChange={(e) => setElem(e.target.value)}
                 ></FormControl>
                 <Form.Text>
-                  Search for anything from animal shelters, foodbanks, to
-                  community volunteering. Check About for a list of categories
-                  we offer.
+                  Check our About Page for the categories we offer.
                 </Form.Text>
               </Col>
               <Col>
