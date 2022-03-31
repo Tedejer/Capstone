@@ -17,11 +17,11 @@ A website that people in the local area of Ventura County can use to become a mo
   - ~~Back End Version 1 February 20th - February 28th~~
 - March
   - ~~Inital FrontEnd deploy~~
+- April
   - Get feedback on frontEnd
     - Revaluate GUI based on Feedback
   - Create mock backend
   - Initial backEnd
-- April
   - API
   - Features
 - May
@@ -29,7 +29,7 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ## Example Usage
 
-![FrontDemo](https://user-images.githubusercontent.com/35849655/158444262-adb94535-4431-47b2-9a64-2b9176e57ac4.gif)
+![FrontendDemo](https://user-images.githubusercontent.com/35849655/161121331-b81b388e-48e8-4f02-b1cf-bad57193139d.gif)
 
 ## Links
 
