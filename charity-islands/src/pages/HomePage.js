@@ -36,7 +36,11 @@ function HomePage() {
                   placeholder="Search"
                   onChange={(e) => setElem(e.target.value)}
                 ></FormControl>
-                <Form.Text>e.g. Animal Shelter, Foodbanks, Homeless</Form.Text>
+                <Form.Text>
+                  Search for anything from animal shelters, foodbanks, to
+                  community volunteering. Check About for a list of categories
+                  we offer.
+                </Form.Text>
               </Col>
               <Col>
                 <Button
