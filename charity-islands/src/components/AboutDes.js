@@ -13,25 +13,28 @@ function AboutDes() {
                 Agriculture
               </ListGroup.Item>
               <ListGroup.Item action href="#link2">
-                Children and Youth
+                Animal Service
               </ListGroup.Item>
               <ListGroup.Item action href="#link3">
-                Comunity Development
+                Children and Youth
               </ListGroup.Item>
               <ListGroup.Item action href="#link4">
-                Education
+                Community Development
               </ListGroup.Item>
               <ListGroup.Item action href="#link5">
-                Environment
+                Education
               </ListGroup.Item>
               <ListGroup.Item action href="#link6">
-                Health
+                Environment
               </ListGroup.Item>
               <ListGroup.Item action href="#link7">
-                Wildlife Protection
+                Food Share
               </ListGroup.Item>
               <ListGroup.Item action href="#link8">
-                Women's Empowerment
+                Health
+              </ListGroup.Item>
+              <ListGroup.Item action href="#link9">
+                Military Community
               </ListGroup.Item>
             </ListGroup>
           </Col>
@@ -46,7 +49,7 @@ function AboutDes() {
                   thinking about agriculture.
                 </p>
               </Tab.Pane>
-              <Tab.Pane eventKey="#link2">
+              <Tab.Pane eventKey="#link3">
                 <p>
                   Volunteers might work with kids at an orphanage or nursery,
                   tutor teens in English or math, or organize sports activities
@@ -56,7 +59,7 @@ function AboutDes() {
                   engaging alternatives to the temptations of drugs and gangs.
                 </p>
               </Tab.Pane>
-              <Tab.Pane eventKey="#link3">
+              <Tab.Pane eventKey="#link4">
                 <p>
                   This broad category includes everything from installing solar
                   panels at a health clinic or water catchment systems at a
@@ -68,7 +71,7 @@ function AboutDes() {
                 </p>
               </Tab.Pane>
 
-              <Tab.Pane eventKey="#link4">
+              <Tab.Pane eventKey="#link5">
                 <p>
                   Educational programs range from lending a hand at an
                   elementary school to teaching English to adults in order to
@@ -79,7 +82,7 @@ function AboutDes() {
                 </p>
               </Tab.Pane>
 
-              <Tab.Pane eventKey="#link5">
+              <Tab.Pane eventKey="#link7">
                 <p>
                   Environmental projects may have volunteers working in an
                   office preparing educational materials, outside creating
@@ -95,7 +98,7 @@ function AboutDes() {
                 </p>
               </Tab.Pane>
 
-              <Tab.Pane eventKey="#link6">
+              <Tab.Pane eventKey="#link8">
                 <p>
                   While opportunities abound for specialized skills, from
                   first-aid training to heart surgery, you don’t necessarily
@@ -107,7 +110,7 @@ function AboutDes() {
                 </p>
               </Tab.Pane>
 
-              <Tab.Pane eventKey="#link7">
+              <Tab.Pane eventKey="#link9">
                 <p>
                   Volunteers can choose from activities such as protecting
                   turtle hatchlings on their journey from nest to sea,
@@ -124,19 +127,7 @@ function AboutDes() {
                 </p>
               </Tab.Pane>
 
-              <Tab.Pane eventKey="#link8">
-                <p>
-                  Volunteer opportunities that focus on women might include
-                  promoting associations of artisan weavers or supporting
-                  workshops on everything from civil rights to home finances.
-                  According to UN Women, “there is a direct link between
-                  increased female labor participation and growth,” and World
-                  Bank studies demonstrate that women are more likely than men
-                  to spend their income on food and education for their
-                  children, making investments in women a critical part of
-                  development.
-                </p>
-              </Tab.Pane>
+
             </Tab.Content>
           </Col>
         </Row>
