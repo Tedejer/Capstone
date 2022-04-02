@@ -1,6 +1,7 @@
 {
   "charities":[
   {
+    "id":"1",
     "name": "Habitat for Humanity of Ventura County",
     "type": "Community Development",
     "hours": "Monday: 9AM-5PM, Tuesday: 9AM-5PM, Wednesday: 9AM-5PM, Thursday: 9AM-5PM, Friday: 9AM-5PM, Saturday: 9AM-5PM, Sunday: 9AM-5PM",
@@ -12,6 +13,7 @@
     "Rating": "4.2"
   },
   {
+    "id":"2",
     "name": "ACTION VC",
     "type": "Community Development",
     "hours": "Monday: 9AM-4PM, Tuesday: 9AM-4PM, Wednesday: 9AM-4PM, Thursday: 9AM-4PM, Friday: 9AM-2PM, Saturday: CLOSED, Sunday: CLOSED",
@@ -23,6 +25,7 @@
     "Rating": "5"
   },
   {
+    "id":"3",
     "name": "Humane Society of Ventura County",
     "type": "Animal Service",
     "hours": "Monday: 10AM-5PM, Tuesday: 10AM-5PM, Wednesday: 10AM-5PM, Thursday: 10AM-5PM, Friday: 10AM-5PM, Saturday: 10AM-5PM, Sunday: CLOSED",
@@ -34,6 +37,7 @@
     "Rating": "5"
   },
   {
+    "id":"4",
     "name": "Ventura County Animal Service",
     "type": "Animal Service",
     "hours": "Monday: CLOSED, Tuesday: 9AM-6PM, Wednesday: 9AM-6PM, Thursday: 9AM-6PM, Friday: 9AM-6PM, Saturday: 9AM-6PM, Sunday: 9AM-6PM",
@@ -45,6 +49,7 @@
     "Rating": "3.9"
   },
   {
+    "id":"5",
     "name": "Food Share of Ventura County",
     "type": "Food Share",
     "hours": "Monday: 8AM-4PM, Tuesday: 8AM-4PM, Wednesday: 8AM-4PM, Thursday: 8AM-4PM, Friday: 8AM-4PM, Saturday: CLOSED, Sunday: CLOSED",
@@ -56,6 +61,7 @@
     "Rating": "4.4"
   },
   {
+    "id":"6",
     "name": "Project Understanding",
     "type": "Food Share",
     "hours": "Monday: 9AM-12PM, Tuesday: CLOSED, Wednesday: 9AM-12PM, Thursday: CLOSED, Friday: 9AM-12PM, Saturday: CLOSED, Sunday: CLOSED",
@@ -67,6 +73,7 @@
     "Rating": "4.5"
   },
   {
+    "id":"7",
     "name": "Farm Bureau of Ventura County",
     "type": "Agriculture",
     "hours": "Monday: 9AM-5PM, Tuesday: 9AM-5PM, Wednesday: 9AM-5PM, Thursday: 9AM-5PM, Friday: 9AM-5PM, Saturday: CLOSED, Sunday: CLOSED",
@@ -78,6 +85,7 @@
     "Rating": "NA"
   },
   {
+    "id":"8",
     "name": "Make A Wish Tri-Counties",
     "type": "Children and Youth",
     "hours": "Monday: 24 Hours, Tuesday: 24 Hours, Wednesday: 24 Hours, Thursday: 24 Hours, Friday: 24 Hours, Saturday: 24 Hours, Sunday: 24 Hours",
@@ -89,6 +97,7 @@
     "Rating": "NA"
   },
   {
+    "id":"9",
     "name": "4 Kids 2 Kids",
     "type": "Children and Youth",
     "hours": "Monday: 8AM-5PM, Tuesday: 8AM-5PM, Wednesday: 8AM-5:30PM, Thursday: 8AM-5PM, Friday: 8AM-5PM, Saturday: CLOSED, Sunday: CLOSED",
@@ -100,6 +109,7 @@
     "Rating": "NA"
   },
   {
+    "id":"10",
      "name": "Laubach Literacy of Venutra County",
      "type": "Education",
      "hours": null,
@@ -111,6 +121,7 @@
      "Rating": "5"
    },
    {
+    "id":"11",
      "name": "Ventura College Foundation",
      "type": "Education",
      "hours": null,
@@ -122,6 +133,7 @@
      "Rating": null
    },
    {
+    "id":"12",
      "name": "Ventura Land Trust",
      "type": "Environment",
      "hours": "Monday: 8AM-5PM, Tuesday: 8AM-5PM, Wednesday: 8AM-5PM, Thursday: 8AM-5PM, Friday: 8AM-5PM, Saturday: CLOSED, Sunday: CLOSED",
@@ -133,6 +145,7 @@
      "Rating": "5"
    },
    {
+    "id":"13",
      "name": "Autism Society Ventura County",
      "type": "Health",
      "hours": null,
@@ -144,6 +157,7 @@
      "Rating": null
     },
     {
+      "id":"14",
      "name": "Casa Pacifica",
      "type": "Children and Youth",
      "hours": null,
@@ -155,6 +169,7 @@
      "Rating": null
     },
     {
+     "id":"15",
      "name": "Ventura County Military Collaborative",
      "type": "Military Community",
      "hours": null,
