@@ -49,6 +49,16 @@ function AboutDes() {
                   thinking about agriculture.
                 </p>
               </Tab.Pane>
+              <Tab.Pane eventKey="#link2">
+                <p>
+                  This category involves the aid of various facilities or
+                  organization related to animals. A broad category that
+                  includes anything from animal shelters to small programs to
+                  protecting specific biological communities. This may also
+                  include helping out the space and environment for animal
+                  habitats that are local in the area.
+                </p>
+              </Tab.Pane>
               <Tab.Pane eventKey="#link3">
                 <p>
                   Volunteers might work with kids at an orphanage or nursery,
@@ -126,8 +136,6 @@ function AboutDes() {
                   education, and community development.
                 </p>
               </Tab.Pane>
-
-
             </Tab.Content>
           </Col>
         </Row>
