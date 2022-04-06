@@ -42,11 +42,10 @@ function AboutDes() {
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
                 <p>
-                  Agricultural work might be on a rural community farming or
-                  permaculture project. The best of these projects include local
-                  outreach— such as demonstration farms and educational
-                  workshops in schools—that support a community-wide change in
-                  thinking about agriculture.
+                  This category covers services closely related to farming and
+                  permaculture work. It includes but is not limted to
+                  educational workshop nad projects that demonstrate the impact
+                  of agriculture within the community.
                 </p>
               </Tab.Pane>
               <Tab.Pane eventKey="#link2">
