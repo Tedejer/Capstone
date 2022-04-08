@@ -59,7 +59,12 @@ function AboutDes() {
                 </p>
               </Tab.Pane>
               <Tab.Pane eventKey="#link3">
-                <p>WIP</p>
+                <p>
+                  This category covers the facilities and voluneer opportunites
+                  invlovling children and youth organizations. It includes
+                  anything from educational projects to outdoor sporting
+                  activites within the local community.
+                </p>
               </Tab.Pane>
               <Tab.Pane eventKey="#link4">
                 <p>WIP</p>
