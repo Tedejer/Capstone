@@ -6,7 +6,7 @@ A website that people in the local area of Ventura County can use to become a mo
 
 ## Status
 
-![Progress](https://progress-bar.dev/40/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
+![Progress](https://progress-bar.dev/41/?scale=100&title=progress&width=1000&color=856A5D&suffix=%)
 
 ### Roadmap
 
