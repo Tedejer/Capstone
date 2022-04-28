@@ -17,14 +17,14 @@ A website that people in the local area of Ventura County can use to become a mo
 - March
   - ~~Inital FrontEnd deploy~~
 - April
-  - Get feedback on frontEnd
-    - Revaluate GUI based on Feedback
-  - Create mock backend
-  - Initial backEnd
-  - API
-  - Features
+  - ~~Get feedback on frontEnd~~
+    - ~~Revaluate GUI based on Feedback~~
+  - ~~Create mock backend~~
+  - ~~Initial backEnd~~
+  - ~~API~~
+  - ~~Features~~
 - May
-  - Presentation App deploy/release
+  - ~~Presentation App deploy/release~~
 
 ## Example Usage
 
