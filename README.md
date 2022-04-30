@@ -33,7 +33,3 @@ A website that people in the local area of Ventura County can use to become a mo
 ## Links
 
 [Chairty Islands](https://tedejer.github.io/Capstone/)
-
-## Contributing
-
-## Help
