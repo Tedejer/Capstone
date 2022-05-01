@@ -48,6 +48,7 @@ function AboutDes() {
                   of agriculture within the community.
                 </p>
               </Tab.Pane>
+
               <Tab.Pane eventKey="#link2">
                 <p>
                   This category involves the aid of various facilities or
@@ -58,6 +59,7 @@ function AboutDes() {
                   habitats that are local in the area.
                 </p>
               </Tab.Pane>
+
               <Tab.Pane eventKey="#link3">
                 <p>
                   This category covers the facilities and voluneer opportunites
@@ -66,24 +68,49 @@ function AboutDes() {
                   activites within the local community.
                 </p>
               </Tab.Pane>
+
               <Tab.Pane eventKey="#link4">
-                <p>WIP</p>
+                <p>
+                  This category covers the facilities and voluneer opportunites
+                  invlovling Community Development. It includes anything from
+                  educational projects to outdoor sporting activites within the
+                  local community.
+                </p>
               </Tab.Pane>
+
               <Tab.Pane eventKey="#link5">
-                <p>WIP</p>
+                <p>
+                  This category covers the facilities and voluneer opportunites
+                  invlovling Education.
+                </p>
               </Tab.Pane>
+
               <Tab.Pane eventKey="#link6">
-                <p>WIP</p>
+                <p>
+                  This category covers the facilities and voluneer opportunites
+                  invlovling Enviornment.
+                </p>
               </Tab.Pane>
+
               <Tab.Pane eventKey="#link7">
-                <p>WIP</p>
+                <p>
+                  This category covers the facilities and voluneer opportunites
+                  invlovling Food Shares in Venture County.
+                </p>
               </Tab.Pane>
+
               <Tab.Pane eventKey="#link8">
-                <p>WIP</p>
+                <p>
+                  This category covers the facilities and voluneer opportunites
+                  invlovling Health.
+                </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link9">
-                <p>WIP</p>
+                <p>
+                  This category covers the facilities and voluneer opportunites
+                  invlovling Military Community.
+                </p>
               </Tab.Pane>
             </Tab.Content>
           </Col>
