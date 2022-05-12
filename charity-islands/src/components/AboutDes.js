@@ -42,74 +42,74 @@ function AboutDes() {
             <Tab.Content>
               <Tab.Pane eventKey="#link1">
                 <p>
-                  This category covers services closely related to farming and
-                  permaculture work. It includes but is not limted to
-                  educational workshop nad projects that demonstrate the impact
-                  of agriculture within the community.
+                  This category covers services closely related to agriculture
+                  and permaculture work. It includes but is not limited to
+                  educational workshops and projects that demonstrate the impact
+                  of agriculture within
                 </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link2">
                 <p>
                   This category involves the aid of various facilities or
-                  organization related to animals. A broad category that
-                  includes anything from animal shelters to small programs to
-                  protecting specific biological communities. This may also
-                  include helping out the space and environment for animal
-                  habitats that are local in the area.
+                  organizations related to animals. This is a broad category
+                  that includes anything from animal shelters to small programs
+                  to protecting specific biological communities. This may also
+                  include assisting with the space and environment for local
+                  animal habitats.
                 </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link3">
                 <p>
-                  This category covers the facilities and voluneer opportunites
-                  invlovling children and youth organizations. It includes
-                  anything from educational projects to outdoor sporting
-                  activites within the local community.
+                  This category covers the facilities and volunteer
+                  opportunities involving children and youth organizations. It
+                  can range from educational projects to outdoor sporting
+                  activities in the community.
                 </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link4">
                 <p>
-                  This category covers the facilities and voluneer opportunites
-                  invlovling Community Development. It includes anything from
-                  educational projects to outdoor sporting activites within the
-                  local community.
+                  This category covers the facilities and volunteer
+                  opportunities involving Community Development. It can range
+                  from educational projects to outdoor sporting activities in
+                  the community.
                 </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link5">
                 <p>
-                  This category covers the facilities and voluneer opportunites
-                  invlovling Education.
+                  This category covers the facilities and volunteer
+                  opportunities involved in education.
                 </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link6">
                 <p>
-                  This category covers the facilities and voluneer opportunites
-                  invlovling Enviornment.
+                  This category covers the facilities and volunteer
+                  opportunities involved in the environment.
                 </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link7">
                 <p>
-                  This category covers the facilities and voluneer opportunites
-                  invlovling Food Shares in Venture County.
+                  This category covers the facilities and volunteer
+                  opportunities involved with Food Shares in Ventura County.
                 </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link8">
                 <p>
-                  This category covers the facilities and voluneer opportunites
-                  invlovling Health.
+                  This category covers the facilities and volunteer
+                  opportunities involved in health.
                 </p>
               </Tab.Pane>
 
               <Tab.Pane eventKey="#link9">
                 <p>
-                  This category covers the facilities and voluneer opportunites
-                  invlovling Military Community.
+                  This category covers the facilities and volunteer opportunites
+                  invlovling the military and veterans.
                 </p>
               </Tab.Pane>
             </Tab.Content>
