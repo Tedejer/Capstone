@@ -21,8 +21,7 @@ function Results(props) {
               Test Link One
             </li>
             <p>
-              Brief Desc:
-              <LoremIpsum p={1} />
+              Brief Desc: This Charity is about ___. It is located here ___. The operations hours are: ___.
             </p>
             <li
               class="result-link font-weight-bold"
@@ -33,8 +32,7 @@ function Results(props) {
               Test Link Two
             </li>
             <p>
-              Brief Desc:
-              <LoremIpsum p={2} />
+            Brief Desc: This Charity is about ___. It is located here ___. The operations hours are: ___.
             </p>
             <li
               class="result-link font-weight-bold"
@@ -45,8 +43,7 @@ function Results(props) {
               Test Link Three
             </li>
             <p>
-              Brief Desc:
-              <LoremIpsum p={1} />
+            Brief Desc: This Charity is about ___. It is located here ___. The operations hours are: ___.
             </p>
           </ul>
         </div>
